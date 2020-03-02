@@ -1,5 +1,5 @@
 # POWER-KI&reg;
-Programming language for Intelligent Applications (IA)</br> 
+POWER-KI&reg; programming language for Intelligent Applications (IA)</br> 
 &copy;2010-2020 - XPLAB - Research in Automation - Brescia - ITALY
 
 <h3>INSTALL-PACKAGE:</h3>
