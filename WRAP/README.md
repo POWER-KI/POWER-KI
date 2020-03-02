@@ -1,5 +1,5 @@
 <h3>WRAP</h3>
-WRAP (WRP in POWER-KI) are external Win DLL that make possible to extend PWK whith external code.</br>
+WRAP (WRP in POWER-KI) are external Win DLL that make possible to extend PWK with external code.</br>
 We provide a WIN template Project that you can use to easily create your WRAP DLL.</br>
 To install copy the zip file in the project Templates directory of your Visual Studio like:</br></br>
 
