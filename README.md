@@ -6,4 +6,4 @@ POWER-KI&reg; programming language for Intelligent Applications (IA)</br>
 Ready to install (.msi) package.
 
 <h3>WRAP:</h3>
-Extend the POWER-KI Power with your code:
+Extend the POWER-KI Power with your code.</br>
