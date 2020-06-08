@@ -12,5 +12,11 @@ Extend the POWER-KI Power with your code.</br>
 
 <h2>CHANGE LOG </h2>
 
+30.79 - 08/06/20
+Bug Fix in TBL lib: prevent TLB_LOD and other functions from returning PTR NULL when no error. 
+
+30.78 - 04/06/20
+WorkBench: improved help text for Editor Assistant and function composer.
+
 30.77 - 29/05/20
 BREAK Change in WRAP: if you install this version previous DEMO and WRAP shoud be updated.
