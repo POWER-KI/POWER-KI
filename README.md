@@ -12,6 +12,9 @@ Extend the POWER-KI Power with your code.</br>
 
 <h2>CHANGE LOG </h2>
 
+30.80 - 09/06/20
+Stable candidate
+
 30.79 - 08/06/20
 Bug Fix in TBL lib: prevent TLB_LOD and other functions from returning PTR NULL when no error. 
 
