@@ -9,8 +9,16 @@ Ready to install (.msi) package.
 <h3>WRAP:</h3>
 Extend the POWER-KI Power with your code.</br>
 
+<h2>NEXT</h2>
+- OCV is now a candidate for OFF-LOAD. 
+
 
 <h2>CHANGE LOG </h2>
+
+30.93 - 24/06/20
+BREAK Change in WRAP: if you install this version previous DEMO and WRAP shoud be updated.
+- WRAP to Snap7 is now in distribution (No need to declare in Package)
+- OFF-LOAD of RealSense2: RS2 is now a WRAP, RealSense2.DLL is included in PWK distribution.
 
 30.80 - 09/06/20
 Stable candidate
@@ -23,3 +31,8 @@ WorkBench: improved help text for Editor Assistant and function composer.
 
 30.77 - 29/05/20
 BREAK Change in WRAP: if you install this version previous DEMO and WRAP shoud be updated.
+
+
+<h2>NOTE</h2>
+- OFF-LOAD:  moving a LIB from PWK CORE to WRAP. 
+
