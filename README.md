@@ -15,6 +15,9 @@ Extend the POWER-KI Power with your code.</br>
 
 <h2>CHANGE LOG </h2>
 
+30.96 - 19/06/20
+BUG fix, add async stream to gui. 
+
 30.93 - 24/06/20
 BREAK Change in WRAP: if you install this version previous DEMO and WRAP shoud be updated.
 - WRAP to Snap7 is now in distribution (No need to declare in Package)
