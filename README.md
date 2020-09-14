@@ -14,6 +14,12 @@ Extend the POWER-KI Power with your code.</br>
 
 
 <h2>CHANGE LOG </h2>
+31.08 - 14/09/20
+- minor inprovements.
+
+31.01 - 17/08/20
+- GUI TEXTBOX Password: £TRUE or a CHAR.
+- OCV_
 
 30.96 - 19/06/20
 BUG fix, add async stream to gui. 
