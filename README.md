@@ -14,6 +14,9 @@ Extend the POWER-KI Power with your code.</br>
 
 
 <h2>CHANGE LOG </h2>
+31.11 - 18/09/20
+- minor inprovements.
+
 31.08 - 14/09/20
 - minor inprovements.
 
