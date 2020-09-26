@@ -14,6 +14,9 @@ Extend the POWER-KI Power with your code.</br>
 
 
 <h2>CHANGE LOG </h2>
+31.25 - 26/09/20
+- Added Calcolatrice xApp to installer. 
+
 31.11 - 18/09/20
 - minor inprovements.
 
