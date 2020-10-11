@@ -8,5 +8,8 @@ Setup_PWK-GUI_PUB01.msi:	<i>GUI Client for Native-Cloud </i> </br>
 <b>NOTE:</b></br> 
 
 VCredist_x86.exe required (download from Microsoft).
-Autosigned (XPLAB) Packages.
+
+Included XAPP:
+
+- Calcolatrice
 
