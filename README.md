@@ -15,6 +15,9 @@ Extend the POWER-KI Power with your code.</br>
 
 <h2>CHANGE LOG </h2>
 
+31.40 - 15/10/20
+- Minor Bug fix and inprovements.
+
 31.37 - 11/10/20
 - DEV and EXC distributions contains  Calcolatrive V2;
 - Signed Install Packages.
