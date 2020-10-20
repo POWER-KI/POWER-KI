@@ -1,5 +1,5 @@
 # POWER-KI&reg;
-POWER-KI&reg; programming language for Intelligent Applications (IA)</br> 
+POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
 &copy;2010-2020 - XPLAB - Research in Automation - Brescia - ITALY</br> 
 <a href="http://www.POWER-KI.com">POWER-KI official site </a> 
 
@@ -8,6 +8,7 @@ POWER-KI establishes a New and Original paradigm for programming languages.
 Among the most significant features:
 - separation between Data, Flow, Code;
 - Full Reflective;
+- Designed for Multi Threading;
 - Native Cloud:
 - Simple Code Syntax;
 - Core Library (DataBase, Knowledge Base, OPC-UA ..);
@@ -21,6 +22,9 @@ The WorkBench, included in the DEV distribution, is the development environment 
 as well as testing and debugging.
  
 The ecosystem of applications ranges from Wiz and Tools, for the automation of application generation and hot debugging (PWK-Insider), to applications such as PWK-ES Enterprise Server for the management of applications and Cloud services.
+
+POWER-KI is an industrial grade language, which has found wide use in advanced factory and plant automation applications, what now is called Factory 4.0, anticipating its times by a decade. 
+But the application possibilities range from the Web/eCommerce, to the IoT, to decision-making and management systems in general.
 
 <h3>INSTALL-PACKAGE:</h3>
 Ready to install (.msi) package.
