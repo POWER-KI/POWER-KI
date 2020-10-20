@@ -17,6 +17,7 @@ The WorkBench, included in the DEV distribution, is the development environment 
 - of the code;
 - GUI Ggraphic User Interface;
 - WUI Web User Interface (HTML5, CSS);
+
 as well as testing and debugging.
  
 The ecosystem of applications ranges from Wiz and Tools, for the automation of application generation and hot debugging (PWK-Insider), to applications such as PWK-ES Enterprise Server for the management of applications and Cloud services.
