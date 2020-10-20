@@ -26,8 +26,11 @@ The ecosystem of applications ranges from Wiz and Tools, for the automation of a
 POWER-KI is an industrial grade language, which has found wide use in advanced factory and plant automation applications, what now is called Factory 4.0, anticipating its times by a decade. 
 But the application possibilities range from the Web/eCommerce, to the IoT, to decision-making and management systems in general.
 
-<h3>INSTALL-PACKAGE:</h3>
-Ready to install (.msi) package.
+<h3>INSTALL-PACKAGEs:</h3>
+Ready to install (.msi) package:
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>DEVELOPER edition</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>EXECUTOR</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>GUI Client</a>
 
 <h3>WRAP:</h3>
 Extend the POWER-KI Power with your code.</br>
