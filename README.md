@@ -9,13 +9,13 @@ Among the most significant features:
 - separation between Data, Flow, Code;
 - Full Reflective;
 - Native Cloud:
-- simple code syntax;
-- Core library (DataBase, Knowledge Base, OPC-UA ..);
+- Simple Code Syntax;
+- Core Library (DataBase, Knowledge Base, OPC-UA ..);
 - Wrap technology to extend with external or custom libraries.
 
 The WorkBench, included in the DEV distribution, is the development environment for editing:
 - of the code;
-- GUI Ggraphic User Interface;
+- GUI Graphic User Interface;
 - WUI Web User Interface (HTML5, CSS);
 
 as well as testing and debugging.
@@ -29,7 +29,7 @@ Ready to install (.msi) package.
 Extend the POWER-KI Power with your code.</br>
 
 <h2>NEXT</h2>
-- OCV is now a candidate for OFF-LOAD. 
+- OCV is now a candidate for OFF-LOAD°. 
 
 
 <h2>CHANGE LOG </h2>
@@ -79,5 +79,5 @@ BREAK Change in WRAP: if you install this version previous DEMO and WRAP shoud b
 
 
 <h2>NOTE</h2>
-- OFF-LOAD:  moving a LIB from PWK CORE to WRAP. 
+- °OFF-LOAD:  moving a LIB from PWK CORE to WRAP. 
 
