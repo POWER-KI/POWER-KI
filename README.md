@@ -12,7 +12,7 @@ Among the most significant features:
 - Native Cloud:
 - Simple Code Syntax;
 - Core Library (DataBase, Knowledge Base, OpenCV, OPC-UA ..);
-- Wrap technology to extend with external or custom libraries.
+- Wrap technology to extend with external or custom libraries (RealSense2, Snap7, Voice ...).
 
 The WorkBench, included in the DEV distribution, is the development environment for editing:
 - of the code;
@@ -30,11 +30,15 @@ But the application possibilities range from the Web/eCommerce, to the IoT, to d
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition</a></br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR + Calcolatrice</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice)</a></br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
 
 <h3>WRAP:</h3>
 Extend the POWER-KI Power with your code.</br>
+
+<h3>XAPP:</h3>
+We call XAPP PWK-applications included in the distribution like:
+- CALCOLATRICE (V2).
 
 <h2>NEXT</h2>
 - OCV is now a candidate for OFF-LOAD°. 
