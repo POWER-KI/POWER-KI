@@ -1,7 +1,8 @@
 # POWER-KI&reg;
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
 &copy;2010-2020 - XPLAB - Research in Automation - Brescia - ITALY</br> 
-<a href="http://www.POWER-KI.com">POWER-KI official site </a> 
+<a href="http://www.POWER-KI.com">POWER-KI official site </a> </br></br> 
+<a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 
 POWER-KI establishes a New and Original paradigm for programming languages. 
 
