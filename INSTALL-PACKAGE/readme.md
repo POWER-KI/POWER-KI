@@ -11,5 +11,5 @@ VCredist_x86.exe required (download from Microsoft).
 
 Included XAPP:
 
-- Calcolatrice
+- Calcolatrice V3
 

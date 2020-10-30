@@ -40,13 +40,18 @@ Extend the POWER-KI Power with your code.</br>
 
 <h3>XAPP:</h3>
 We call XAPP PWK-applications included in the distribution like:
-- CALCOLATRICE (V2).
+- CALCOLATRICE (V3) with PWK-01-BASIC lib.
 
 <h2>NEXT</h2>
 - OCV is now a candidate for OFF-LOAD°. 
 
 
 <h2>CHANGE LOG </h2>
+
+31.48 - 30/10/20
+- Minor improvements and bug fix;
+- Calcolatrice V3;
+- .msi Signed with EV certificate (no more trouble during installation). 
 
 31.40 - 15/10/20
 - Minor Bug fix and inprovements.
