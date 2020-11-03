@@ -35,6 +35,10 @@ Ready to install (.msi) package:
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V3)</a></br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
 
+Requirements:</br>
+- <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/vcredist_x86.exe" Microsoft VCredist</a>;</br>
+- .NET.  
+
 <h3>WRAP:</h3>
 Extend the POWER-KI Power with your code.</br>
 
