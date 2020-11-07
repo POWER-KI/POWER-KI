@@ -21,7 +21,7 @@ The WorkBench, included in the DEV distribution, is the development environment 
 
 as well as for testing, debugging and deploy.
  
-The ecosystem of applications ranges from Wiz and Tools, for the automation of application generation and hot debugging (PWK-Insider), to applications such as PWK-ES Enterprise Server for the management of applications and Cloud services.
+The ecosystem of applications ranges from Wiz and Tools for the automation of application generation and hot debugging (PWK-Insider), to applications such as PWK-ES Enterprise Server for the management of applications and Cloud services.
 
 POWER-KI is an industrial grade language, which has found wide use in advanced factory and plant automation applications, what now is called Factory 4.0, anticipating its times by a decade. 
 But the application possibilities range from the Web/eCommerce, to the IoT, to decision-making and management systems in general.</br>
