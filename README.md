@@ -43,7 +43,7 @@ Requirements:</br>
 Extend the POWER-KI Power with your code.</br>
 
 <h3>XAPP:</h3>
-We call XAPP PWK-applications included in the distribution like:
+We call XAPP PWK-applications included in the distribution like:</br>
 - CALCOLATRICE (V3) with PWK-01-BASIC lib <a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/PWK-CLC-01.pdf">(Manual)</a>.
 
 <h2>NEXT</h2>
