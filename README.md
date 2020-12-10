@@ -55,6 +55,9 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG </h2>
 
+31.70 - 10/12/20
+- Bug fix.
+
 31.69 - 02/12/20 - <b>CodeName: GLUE</b>
 - OCV OffLoad;
 - BUF_MTX: multi dimension matrix;
