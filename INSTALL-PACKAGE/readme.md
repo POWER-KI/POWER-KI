@@ -1,4 +1,4 @@
-<h3>INSTALL-PACKAGE</h3>
+<h3>INSTALL-PACKAGE: Ver 11 (Veloce)</h3>
 
 
 Setup_POWER-KI_PUB01.msi:	<i>FULL Developer package</i> </br>
