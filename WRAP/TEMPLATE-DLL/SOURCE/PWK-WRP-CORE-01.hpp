@@ -194,7 +194,7 @@
 
 // ============================================================================
 
-typedef WRP_EXPORTS int(* WRPPWK_EXC)(ANY _parBuf_, int _parNum_, PTR_TO(U8)bpp);
+typedef WRP_EXPORTS int(* WRPPWK_EXC)(ANY _parBuf_, int _parNum_, PTR_TO(U8)bpp, PTR_TO(U_CHR*)_asBuf_);
 typedef NONE(CALLBACK* WRPPWK_TCB)(ANY, PTR_TO(U_CHR), int mode);// Trig call back 0=Sync 1=asinc 2=Lock SEt 3=Lock RESET
 typedef ANY(CALLBACK* WRPPWK_CBS)(int sel, PTR_TO(U_CHR), ANY, ANY);// Call back  for PWK services
 
@@ -207,8 +207,7 @@ WRP_PAR
 	DATA(PTR_TO(U_CHR),			par,			Par name);
 	DATA(int,					off,			offset);
 	DATA(int,					siz,			size in byte);
-	DATA(PTR_TO(U_CHR),			typ,			Type: U8 I8 I16 U16 I32 U32 I64 U64 F32 F64 PTR   );
-	DATA(PTR_TO(U_CHR),			as,			AS: LIB:TAG:TYP:PAY);
+	DATA(PTR_TO(U_CHR),			typ,			Type: U8 I8 I16 U16 I32 U32 I64 U64 F32 F64 PTR  );	
 	};
 
 DEFINE(struct, WRP_FNC)
@@ -275,10 +274,10 @@ FUNCTION(PTR_TO(WRP_TBL), Add function to init)
 PWK_WRP_Init(WRPPWK_EXC fnc, ...);
 
 //------------------------------------------------------
-ANY WRP_GETRET(PTR_TO(U_CHR)id, ANY buf, int szt, PTR_TO(U_CHR) typ, const PTR_TO(U_CHR) fun, const PTR_TO(U_CHR)as, int init);
+ANY WRP_GETRET(PTR_TO(U_CHR)id, ANY buf, int szt, PTR_TO(U_CHR) typ, const PTR_TO(U_CHR) fun, const PTR_TO(U_CHR)as, int init, PTR_TO(U_CHR*)asBuf);
 
 //------------------------------------------------------
-PTR_TO(U_CHR) WRP_GETPAR_AS(PTR_TO(U_CHR)id,const PTR_TO(U_CHR) fun);
+PTR_TO(U_CHR) WRP_GETPAR_AS(PTR_TO(U_CHR)id,const PTR_TO(U_CHR) fun, PTR_TO(U_CHR*));
 
 int WRP_GETPAR_IDX(PTR_TO(U_CHR)id,const PTR_TO(U_CHR) fun);
 
@@ -327,28 +326,25 @@ ANY& _wtp_= *(ANY*)&((U8*)_parBuf_)[0];
 		}
 //------------------------------------------------------
 #define WRP_DCLRES(typ,nam, ...) \
-	typ &nam= *(typ*) WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(typ),(U_CHR*) L#typ,(U_CHR*) __FUNCTIONW__,NULL, _parNum_< 0);
+	typ &nam= *(typ*) WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(typ),(U_CHR*) L#typ,(U_CHR*) __FUNCTIONW__,NULL, _parNum_< 0, NULL);
 
 #define WRP_DCLRES_AS(nam,as, ...) \
-	ANY &nam= *(ANY*) WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) as, _parNum_< 0);
-
+	ANY &nam= *(ANY*) WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) as, _parNum_< 0, _asBuf_);
 
 #define WRP_SETRES_AS(nam, as, ...) \
 	if(_parNum_>= 0)\
 		{\
-		WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) as, _parNum_< 0);\
+		WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) as, _parNum_< 0, _asBuf_);\
 		}
-
 
 #define WRP_SETRES_AS_PAY(nam, as, pay, ...) \
 	if(_parNum_>= 0)\
 		{\
 		PTR_TO(U_CHR)pas = (U_CHR*)as; \
 		pas = WRP_RES_PAY(as, pay);\
-		WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) pas, _parNum_< 0);\
+		WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) pas, _parNum_< 0, _asBuf_);\
 		if(pas) delete pas;\
 		}
-
 
 #define WRP_SETRES_AS_TYP(nam, as, typ, ...) \
 	PTR_TO(U_CHR)pas= (U_CHR*)as;\
@@ -356,12 +352,12 @@ ANY& _wtp_= *(ANY*)&((U8*)_parBuf_)[0];
 		{\
 		PTR_TO(U_CHR)pas= (U_CHR*)as;\
 		pas = WRP_RES_TYP(as, typ);\
-		WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) pas, _parNum_< 0);\
+		WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) pas, _parNum_< 0, _asBuf_);\
 		if(pas)delete pas;\
 		}
 
 #define WRP_GETAS(nam)\
-	WRP_GETPAR_AS((U_CHR*)L#nam, (U_CHR*)__FUNCTIONW__);
+	WRP_GETPAR_AS((U_CHR*)L#nam, (U_CHR*)__FUNCTIONW__, _asBuf_);
 
 // -----------------------------------------------------------------------
 extern "C" NONE WRP_CALL_PWK_TRIG(ANY parTrg, PTR_TO(U_CHR)parLis, int mode);
@@ -461,7 +457,7 @@ PWK_PTRDEL(ANY PTR, PTR_TO(U_CHR) TYP, ANY PAY)
 
 // -----------------------------------------------------------------------
 #define WRP_FUNC(nam,...) extern "C" \
-	int nam (ANY _parBuf_, int _parNum_, PTR_TO(U8) _bpp_)
+	int nam (ANY _parBuf_, int _parNum_, PTR_TO(U8) _bpp_, PTR_TO(U_CHR*) _asBuf_ )
 
 // -----------------------------------------------------------------------
 

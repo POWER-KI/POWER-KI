@@ -89,8 +89,7 @@ StrDup( const PTR_TO(U_CHR)s);
 FUNCTION(PTR_TO(U_CHR), Search s2 in s1 case insensitive)
 StrStr_I(PTR_TO(U_CHR)s1, PTR_TO(U_CHR)s2);
 
-FUNCTION(int, Format a string)
-StrFormat(PTR_TO(U_CHR)buf,int buflen, PTR_TO(U_CHR)format, ...);
+#define StrFormat swprintf
 
 FUNCTION(int,return the idx+1 of val string in a comma separated list - ins=1 case insensitive)
 StrSelect(PTR_TO(U_CHR)v, PTR_TO(U_CHR)str, int ins=1, U_CHR sep = U_CHR(','));

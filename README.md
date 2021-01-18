@@ -1,6 +1,6 @@
 # POWER-KI&reg;
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
-&copy;2010-2020 - XPLAB - Research in Automation - Brescia - ITALY</br> 
+&copy;2010-2021 - XPLAB - Research in Automation - Brescia - ITALY</br> 
 <a href="http://www.POWER-KI.com">POWER-KI official site </a>  
 
 POWER-KI establishes a New and Original paradigm for programming languages. 
@@ -28,7 +28,7 @@ But the application possibilities range from the Web/eCommerce, to the IoT, to d
 
 <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 
-<h3>INSTALL-PACKAGEs:</h3>
+<h3>INSTALL-PACKAGEs Ver.11:</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V3)</a></br>
@@ -51,66 +51,13 @@ We call XAPP PWK-applications included in the distribution like:</br>
 - VOICE-TEST-X01: Microsoft Voice Cognitive services. 
 
 <h2>NEXT</h2>
-- version CodeName: Performance? 
+- New WRAP: AWS. 
 
 <h2>CHANGE LOG </h2>
 
-31.70 - 10/12/20
-- Bug fix.
-
-31.69 - 02/12/20 - <b>CodeName: GLUE</b>
-- OCV OffLoad;
-- BUF_MTX: multi dimension matrix;
-- EXOMKR: create EXO object;
-- minor bug fix and improvements.
-
-31.48 - 30/10/20
-- Minor improvements and bug fix;
-- Calcolatrice V3;
-- .msi Signed with EV certificate (no more trouble during installation). 
-
-31.40 - 15/10/20
-- Minor Bug fix and inprovements.
-
-31.37 - 11/10/20
-- DEV and EXC distributions contains  Calcolatrive V2;
-- Signed Install Packages.
-
-31.30 - 28/09/20
-- AutoSigned Install Packages;
-
-31.25 - 26/09/20
-- Added Calcolatrice xApp to installer. 
-
-31.11 - 18/09/20
-- minor inprovements.
-
-31.08 - 14/09/20
-- minor inprovements.
-
-31.01 - 17/08/20
-- GUI TEXTBOX Password: £TRUE or a CHAR.
-- OCV_
-
-30.96 - 19/06/20
-BUG fix, add async stream to gui. 
-
-30.93 - 24/06/20
-BREAK Change in WRAP: if you install this version previous DEMO and WRAP shoud be updated.
-- WRAP to Snap7 is now in distribution (No need to declare in Package)
-- OFF-LOAD of RealSense2: RS2 is now a WRAP, RealSense2.DLL is included in PWK distribution.
-
-30.80 - 09/06/20
-Stable candidate
-
-30.79 - 08/06/20
-Bug Fix in TBL lib: prevent TLB_LOD and other functions from returning PTR NULL when no error. 
-
-30.78 - 04/06/20
-WorkBench: improved help text for Editor Assistant and function composer.
-
-30.77 - 29/05/20
-BREAK Change in WRAP: if you install this version previous DEMO and WRAP shoud be updated.
+32.16 - 17/01/21 (ver. 11 codeName:Veloce)
+- So many internal changes !
+- New funtions: EXOMKR (for object oriented like), BUF matrix. 
 
 
 <h2>NOTE</h2>

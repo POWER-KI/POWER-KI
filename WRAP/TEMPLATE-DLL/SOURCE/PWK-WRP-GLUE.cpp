@@ -37,8 +37,7 @@ PWK_WRP_PAR_REG(PTR_TO(U_CHR)id, PTR_TO(U_CHR)typ, int szt)
 	PTR_TO(lisParElm) pe=new lisParElm;
 	pe->p.par=StrDup(id);
 	pe->p.typ=StrDup(typ);
-	pe->p.siz=szt;
-	pe->p.as = NULL;
+	pe->p.siz=szt;	
 	lisPar.Add(pe);
 	}
 
@@ -48,8 +47,7 @@ PWK_WRP_RES_REG(PTR_TO(U_CHR)id, PTR_TO(U_CHR)typ, int szt)
 	PTR_TO(lisParElm) pe=new lisParElm;
 	pe->p.par=StrDup(id);
 	pe->p.typ=StrDup(typ);
-	pe->p.siz=szt;
-	pe->p.as=NULL;
+	pe->p.siz=szt;	
 	lisRes.Add(pe);
 	}
 
@@ -104,8 +102,7 @@ PWK_WRP_PAR_SET(int idx)
 			par[i].off=off;
 			par[i].par= pe->p.par;
 			par[i].siz=pe->p.siz;
-			par[i].typ = pe->p.typ;
-			par[i].as = pe->p.as;
+			par[i].typ = pe->p.typ;			
 			off+= par->siz;
 			sz+= par->siz;
 			delete pe;
@@ -142,7 +139,7 @@ PWK_WRP_Init(WRPPWK_EXC fnc, ...)
 	while(fnc!=NULL)
 		{
 		wrpTbl->pf[cnt].ptr = fnc;
-		(fnc)(NULL,(cnt+1)*-1,NULL);
+		(fnc)(NULL,(cnt+1)*-1,NULL, NULL);
 		PWK_WRP_PAR_SET(cnt);
 
 		cnt++;
@@ -155,7 +152,7 @@ PWK_WRP_Init(WRPPWK_EXC fnc, ...)
 
 
 //------------------------------------------------------
-ANY WRP_GETRET(PTR_TO(U_CHR)id, ANY buf, int szt, PTR_TO(U_CHR) typ, const PTR_TO(U_CHR) fun, const PTR_TO(U_CHR)as, int init)
+ANY WRP_GETRET(PTR_TO(U_CHR)id, ANY buf, int szt, PTR_TO(U_CHR) typ, const PTR_TO(U_CHR) fun, const PTR_TO(U_CHR)as, int init, PTR_TO(U_CHR*) asBuf)
 	{
 	if (init)
 		{	
@@ -178,9 +175,13 @@ ANY WRP_GETRET(PTR_TO(U_CHR)id, ANY buf, int szt, PTR_TO(U_CHR) typ, const PTR_T
 			for(y=0; y<yn; y++)
 				{
 				if(!_wcsicmp(id, par[y].par))
-					{
-					if (par[y].as)delete par[y].as;
-					par[y].as=StrDup(as);
+					{								
+					if(asBuf)
+						{
+						PTR_TO(U_CHR)t= asBuf[y];
+						asBuf[y] = StrDup(as);
+						if (t)delete t;						
+						}									
 					return &((U8*)buf)[par[y].off];
 					}
 				}			
@@ -191,10 +192,12 @@ ANY WRP_GETRET(PTR_TO(U_CHR)id, ANY buf, int szt, PTR_TO(U_CHR) typ, const PTR_T
 
 //------------------------------------------------------
 
-PTR_TO(U_CHR) WRP_GETPAR_AS(PTR_TO(U_CHR)id,const PTR_TO(U_CHR) fun)
+PTR_TO(U_CHR) WRP_GETPAR_AS(PTR_TO(U_CHR)id,const PTR_TO(U_CHR) fun, PTR_TO(U_CHR*) asBuf)
 	{
 	int i,in, y, yn;
 	PTR_TO(WRP_PAR)par;
+
+	if(!asBuf) return NULL;
 
 	in= wrpTbl->nf;
 
@@ -202,14 +205,14 @@ PTR_TO(U_CHR) WRP_GETPAR_AS(PTR_TO(U_CHR)id,const PTR_TO(U_CHR) fun)
 		{
 		if(!_wcsicmp(fun,wrpTbl->pf[i].fnc))
 			{
-			par = wrpTbl->pf[i].par;
-			yn= wrpTbl->pf[i].np;
+			par = wrpTbl->pf[i].res;
+			yn = wrpTbl->pf[i].nr;
 
 			for(y=0; y<yn; y++)
 				{
 				if(!_wcsicmp(id, par[y].par))
-					{
-					return par[y].as;
+					{									
+					return asBuf[y];
 					}
 				}			
 			}

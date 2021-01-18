@@ -260,17 +260,6 @@ StrStr_I(PTR_TO(U_CHR)s1, PTR_TO(U_CHR)s2)
      return NULL;
 	}
 
-FUNCTION(int, Format a string)
-StrFormat(PTR_TO(U_CHR)buf,int buflen, PTR_TO(U_CHR)format, ...)
-	{
-	int res;
-	va_list arg_ptr;
-
-	va_start(arg_ptr, format);
-	res=vswprintf_s(buf,buflen, format, arg_ptr);
-	va_end(arg_ptr);
-	return res;		
-	}
 
 FUNCTION(int,return the idx+1 of val string in a comma separated list - ins=1 case insensitive)
 StrSelect(PTR_TO(U_CHR)v, PTR_TO(U_CHR)str, int ins, U_CHR sep)
@@ -764,8 +753,7 @@ IsChrLower(U_CHR c)
 
 int HaveSig(PTR_TO(U_CHR) s)
 	{
-	int res=0;
-	int i;
+	int res=0;	
 	
 	if(!s) return NULL;
 	while(VAL_OF(s))
@@ -1351,7 +1339,7 @@ int HaveSig(PTR_TO(U_CHR) s)
 	METHOD(XU_VAL,PTR_TO(U_CHR), Search a String )
 	FindRvs(PTR_TO(U_CHR) s1)
 		{
-		int i, l1,l2;
+		int l1,l2;
 		if(!s1 || !s) return NULL;
 		
 		l1=Len();
@@ -1375,7 +1363,7 @@ int HaveSig(PTR_TO(U_CHR) s)
 	METHOD(XU_VAL,PTR_TO(U_CHR), Search a String )
 	FindRvs_I(PTR_TO(U_CHR) s1)
 		{
-		int i, l1,l2;
+		int l1,l2;
 		if(!s1 || !s) return NULL;
 		
 		l1=Len();
@@ -1711,8 +1699,7 @@ int HaveSig(PTR_TO(U_CHR) s)
 		};
 
 	OPERATOR(XU_VAL,=,XU_VAL&,Int Assignement)(const int i)
-		{
-		PTR_TO(U_CHR) t;
+		{		
 		U_CHR buf[50];
 		
 		#ifdef WIN32
@@ -1725,8 +1712,7 @@ int HaveSig(PTR_TO(U_CHR) s)
 		};
 
 	OPERATOR(XU_VAL,=,XU_VAL&,Int Assignement)(const unsigned i)
-		{
-		PTR_TO(U_CHR) t;
+		{		
 		U_CHR buf[50];
 		unsigned long ul;
 
@@ -1762,8 +1748,7 @@ int HaveSig(PTR_TO(U_CHR) s)
 	//-------------------------------------
 	
 	OPERATOR(XU_VAL,=,XU_VAL&,FLT Assignement)(const FLT i)
-		{
-		PTR_TO(U_CHR) t;
+		{		
 		U_CHR buf[51];
 		
 		if(i == int(i))
@@ -1783,7 +1768,6 @@ int HaveSig(PTR_TO(U_CHR) s)
 
 	OPERATOR(XU_VAL,=,XU_VAL&,FLT64 Assignement)(const FLT64 i)
 		{
-		PTR_TO(U_CHR) t;
 		U_CHR buf[51];
 		
 		if(i == I64(i))
@@ -1810,7 +1794,6 @@ int HaveSig(PTR_TO(U_CHR) s)
 		int len;
 		int l1=StrLen(s);
 		int l2=StrLen(e.s);
-		int lz;
 
 		if(!l2) return *this;
 
@@ -1831,7 +1814,6 @@ int HaveSig(PTR_TO(U_CHR) s)
 		int len;
 		int l1=StrLen(s);
 		int l2=StrLen(as);
-		int lz;
 
 		if(!l2) return *this;
 
