@@ -55,6 +55,9 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG </h2>
 
+32.18 - 06/02/21 
+- in GUI added RANGE (solid or range) draw (x, ymin, ymax).
+
 32.16 - 17/01/21 (ver. 11 codeName:Veloce)
 - So many internal changes !
 - New funtions: EXOMKR (for object oriented like), BUF matrix. 
