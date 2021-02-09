@@ -31,7 +31,7 @@ But the application possibilities range from the Web/eCommerce, to the IoT, to d
 <h3>INSTALL-PACKAGEs Ver.11:</h3>
 Ready to install (.msi) package:
 
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V3)</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V3)</a>
 (The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V3)</a></br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
