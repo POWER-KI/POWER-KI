@@ -54,7 +54,7 @@ We call XAPP PWK-applications included in the distribution like:</br>
 <h2>NEXT</h2>
 - New WRAP: AWS. 
 
-<h2>CHANGE LOG </h2> (ver. 11 CodeName: Veloce)
+<h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
 32.18 - 06/02/21 
 - in GUI added RANGE (solid or range) draw (x, ymin, ymax).
