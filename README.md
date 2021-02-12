@@ -11,8 +11,8 @@ Among the most significant features:
 - Designed for Multi Threading;
 - Native Cloud:
 - Simple Code Syntax;
-- Core Library (DataBase, Knowledge Base, OpenCV, OPC-UA ..);
-- Wrap technology to extend with external or custom libraries (RealSense2, Snap7, Voice ...).
+- Core Library (DataBase, Knowledge Base, OPC-UA ..);
+- Wrap technology to extend with external or custom libraries (OpenCV, RealSense2, Snap7, Voice ...).
 
 The WorkBench, included in the DEV distribution, is the development environment for editing:
 - of the code;
