@@ -7,7 +7,7 @@ POWER-KI establishes a New and Original paradigm for programming languages.
 
 Among the most significant features:
 - Separation between Data, Flow, Code;
-- Plastic Architecture (Full-Reflective and Self-Modifiable);
+- Plastic Architecture (Full-Reflective, Self-Modifiable and Persitence of its executive elements);
 - Designed for Multi Threading;
 - Native Cloud:
 - Simple Code Syntax;
