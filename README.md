@@ -56,6 +56,9 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.25 - 02/03/21
+- added HST (host) library with function for hw device discovering. 
+
 32.22 - 22/02/21
 - minor Bug fix (+=, -=).
 
