@@ -56,6 +56,10 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.34 - 16/03/21
+- minor Bug Fix;
+- enhanced MTH_PLY functions (export/import coef).
+
 32.29 - 04/03/21
 - important Bug Fix of a random error;
 - Lib HST renamed as OSI (O.S. Interface/Info).
@@ -67,7 +71,7 @@ We call XAPP PWK-applications included in the distribution like:</br>
 - minor Bug fix (+=, -=).
 
 32.18 - 06/02/21 
-- in GUI added RANGE (solid or range) draw (x, ymin, ymax).
+- in GUI added RANGE (solid or line) draw (x, ymin, ymax).
 
 32.16 - 17/01/21
 - So many internal changes !
