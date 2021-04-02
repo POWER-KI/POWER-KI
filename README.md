@@ -56,6 +56,11 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.44 - 02/04/21
+- enhanced Web Browser GUI component;
+- bug fix ( minus operation mixing float and int);
+- WorkBench: add Asynchronous saving mode.
+
 32.34 - 16/03/21
 - minor Bug Fix;
 - enhanced MTH_PLY functions (export/import coef).
