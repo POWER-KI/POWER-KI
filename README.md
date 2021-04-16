@@ -6,7 +6,7 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 POWER-KI establishes a New and Original paradigm for programming languages. 
 
 Among the most significant features:
-- Program Code as a Knoledge Base with separation between Data, Flow, Code;
+- Program Code as a Knowledge Base with separation between Data, Flow, Code;
 - Plastic Architecture (Full-Reflective, Self-Modifiable and Persitence of executing elements);
 - Designed for Multi Threading;
 - Native Cloud:
