@@ -6,13 +6,14 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 POWER-KI establishes a New and Original paradigm for programming languages. 
 
 Among the most significant features:
-- Separation between Data, Flow, Code;
-- Plastic Architecture (Full-Reflective, Self-Modifiable and Persitence of its executive elements);
+- Program Code as a Knowledge Base with separation between Data, Flow, Code;
+- Plastic Architecture (Full-Reflective, Self-Modifiable and Persitence of executing elements);
 - Designed for Multi Threading;
 - Native Cloud:
-- Simple Code Syntax;
+- Simple Code Syntax for easy behaviour understanding;
 - Core Library (DataBase, Knowledge Base, OPC-UA ..);
 - Wrap technology to extend with external or custom libraries (OpenCV, RealSense2, Snap7, Voice ...).
+
 
 The WorkBench, included in the DEV distribution, is the development environment for editing:
 - of the code;
@@ -55,6 +56,10 @@ We call XAPP PWK-applications included in the distribution like:</br>
 - New WRAP: AWS. 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+32.48 - 26/04/21
+- WorkBench: added PINning of forms;
+- minor bugs fix.
 
 32.44 - 02/04/21
 - enhanced Web Browser GUI component;
