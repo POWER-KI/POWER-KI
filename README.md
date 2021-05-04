@@ -57,6 +57,9 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.50 - 04/05/21
+- minor Bug Fix in Snap7 Wrap DLL.
+
 32.48 - 26/04/21
 - WorkBench: added PINning of forms;
 - minor bugs fix.
