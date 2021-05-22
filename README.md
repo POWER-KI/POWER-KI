@@ -57,6 +57,10 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.58 - 22/05/21
+- minor bug fix;
+- CALCOLATRICE V3: PWK-01-BASIC updated.
+
 32.56 - 14/05/21
 - WorkBench: minor Bug fix;
 - GUI: enhanced WEB component.
