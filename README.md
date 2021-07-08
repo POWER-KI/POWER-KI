@@ -110,7 +110,7 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 
 <h2>Credits</h2>
-Tecnologies embedded in POWER-KI not developed by XPLAB:
+Tecnologies embedded in POWER-KI not developed by XPLAB:</br>
 - SQLite;		www.sqlite.org;	
 - MariaDbConnector;	www.mariadb.com;
 - Open62541;		www.open62541.org;	ver. 1.2
