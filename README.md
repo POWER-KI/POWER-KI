@@ -57,6 +57,9 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.71 - 30/06/21
+- Updated OPC to 1.2 version.
+
 32.60 - 09/06/21
 - Minor bug fix.
 
@@ -104,6 +107,14 @@ We call XAPP PWK-applications included in the distribution like:</br>
 32.16 - 17/01/21
 - So many internal changes !
 - New funtions: EXOMKR (for object oriented like), BUF matrix. 
+
+
+<h2>Credits</h2>
+Tecnologies embedded in POWER-KI not developed by XPLAB:
+- SQLite;		www.sqlite.org;	
+- MariaDbConnector;	www.mariadb.com;
+- Open62541;		www.open62541.org;	ver. 1.2
+- Mbed TSL;		tls.mbed.org.		
 
 
 <h2>NOTE</h2>
