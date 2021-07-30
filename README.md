@@ -57,6 +57,9 @@ We call XAPP PWK-applications included in the distribution like:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.73 - 30/07/21
+- Bug Fix for Engeneering notation like nnnE-nnn (negative exponent).
+
 32.71 - 30/06/21
 - Updated OPC to 1.2 version.
 
