@@ -47,7 +47,7 @@ Extend the POWER-KI Power with your code.</br>
 
 
 <h3>XAPP:</h3>
-We call XAPP PWK-applications included in the distribution like:</br>
+We call XAPP PWK-applications included in the distribution C:\PWK-PRG\XAPP:</br>
 - CALCOLATRICE (V3) with PWK-01-BASIC lib <a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/PWK-CLC-01.pdf">(Manual)</a>.</br>
 - Snap7Conn: Siemens PLC connection;</br>
 - VOICE-TEST-X01: Microsoft Voice Cognitive services. 
@@ -56,6 +56,9 @@ We call XAPP PWK-applications included in the distribution like:</br>
 - New WRAP: AWS. 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+32.80 - 21/08/21
+- minor optimizations.
 
 32.73 - 30/07/21
 - Bug Fix for Engeneering notation like nnnE-nnn (negative exponent).
