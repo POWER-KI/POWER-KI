@@ -57,7 +57,10 @@ We call XAPP PWK-applications included in the distribution C:\PWK-PRG\XAPP:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
-32.85 - 28/08/21
+32.86 - 31/08/21
+- installer modified to check for VCredist X86.
+
+32.85 - 28/08/21 
 - installer modified to check for VCredist.
 
 32.80 - 21/08/21
