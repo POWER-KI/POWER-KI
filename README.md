@@ -57,6 +57,9 @@ We call XAPP PWK-applications included in the distribution C:\PWK-PRG\XAPP:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.90 - 14/09/21
+- new installer compatible with the requirements of Microsoft Store. 
+
 32.87 - 02/09/21
 - installer modified to check for VCredist X86 and run it in quiet mode.
 
