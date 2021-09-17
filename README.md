@@ -38,8 +38,11 @@ Ready to install (.msi) package:
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
 
 Requirements:</br>
-- <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/vcredist_x86.exe" download>Microsoft VCredist</a>;</br>
+- Microsoft VCredist are installed by the distributions packages;</br>
 - .NET.  
+
+ON Microsoft store (Windows 11 preview) are available Build <b>[32.90]</b> Packages.
+ 
 
 <h3>WRAP:</h3>
 Extend the POWER-KI Power with your code.</br>
@@ -56,6 +59,9 @@ We call XAPP PWK-applications included in the distribution C:\PWK-PRG\XAPP:</br>
 - New WRAP: AWS. 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+32.91 - 17/09/21
+- enhanced STDINP function.
 
 32.90 - 14/09/21
 - new installer compatible with the requirements of Microsoft Store. 
