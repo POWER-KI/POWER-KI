@@ -60,6 +60,9 @@ We call XAPP PWK-applications included in the distribution C:\PWK-PRG\XAPP:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.94 - 20/09/21
+- minor bug fix;
+
 32.91 - 17/09/21
 - enhanced STDINP function.
 
