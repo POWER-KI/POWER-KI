@@ -61,8 +61,11 @@ Extend the POWER-KI Power with your code.</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.95 - 28/09/21
+- WorkBench minor changes.
+
 32.94 - 20/09/21
-- minor bug fix;
+- minor bug fix.
 
 32.91 - 17/09/21
 - enhanced STDINP function.
