@@ -61,6 +61,9 @@ Extend the POWER-KI Power with your code.</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.96 - 29/09/21
+- WorkBench bug fix->(tree not updated using the keyboard to select items).
+
 32.95 - 28/09/21
 - WorkBench minor changes.
 
