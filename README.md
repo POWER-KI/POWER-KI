@@ -46,12 +46,6 @@ ON <b>Microsoft Store</b> (Windows 11 preview) are available Build <b>[32.90]</b
 <h3>DEMO:</h3>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/DEMO">Demo app to download</a>.
 
-<h3>XAPP:</h3>
-We call XAPP PWK-applications included in the distribution C:\PWK-PRG\XAPP:</br>
-- CALCOLATRICE (V3) with PWK-01-BASIC lib <a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/PWK-CLC-01.pdf">(Manual)</a>.</br>
-- Snap7Conn: Siemens PLC connection;</br>
-- VOICE-TEST-X01: Microsoft Voice Cognitive services. 
-
 <h3>WRAP:</h3>
 Extend the POWER-KI Power with your code.</br>
 <a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/WRP-DEV-GUIDE-01.pdf">WRAP Developer's Guide</a>.
