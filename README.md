@@ -55,6 +55,9 @@ Extend the POWER-KI Power with your code.</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+32.97 - 06/10/21
+- fix bug in OPC reconnection.
+
 32.96 - 29/09/21
 - WorkBench bug fix->(tree not updated using the keyboard to select items).
 
