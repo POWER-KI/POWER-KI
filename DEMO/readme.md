@@ -6,6 +6,7 @@ To execute the demo:
 OCV-RS2-01 [intel RealSense cam demo]</br>
 PWK-eXPlorer [easy locate and launch POWER-KI app ]</br>
 PWK-magMng-01 [Multi user wharehouse manager]</br>
+PWK-postMng-01 [Post manager - people, organization address and label]</br> 
 
 <h3>Included in DEV and EXC distribution and copied in C:\PWK-PRG\XAPP : </h3>
 - CALCOLATRICE (V3) with PWK-01-BASIC lib <a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/PWK-CLC-01.pdf">(Manual)</a>.</br>
