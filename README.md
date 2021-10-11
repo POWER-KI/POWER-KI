@@ -52,10 +52,13 @@ Extend the POWER-KI Power with your code.</br>
 
 <h2>NEXT</h2>
 - New WRAP: AWS. 
+</br>
 
-<h2>Read FAST.TRACK The official POWER-KI Magazione</h2>
+<h2>FAST.TRACK The official POWER-KI Magazine</h2>
+Read OnLine:
 - 01 October 2021 - <a href="https://issuu.com/xplab/docs/pwk-ft-01-en?fr=sMWVmNTQyOTE1NTc">[English]</a>
 <a href="https://issuu.com/xplab/docs/pwk-ft-01-it?fr=sYmIzYTQyOTE1NTc">[Italian]</a>
+</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
