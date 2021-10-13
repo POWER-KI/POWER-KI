@@ -38,6 +38,7 @@ Ready to install (.msi) package:
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
 
 Requirements:</br>
+- Windows 10 or above;
 - Microsoft VCredist are installed by the distributions packages;</br>
 - .NET.  
 
