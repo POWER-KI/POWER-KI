@@ -42,7 +42,7 @@ Requirements:</br>
 - Microsoft VCredist are installed by the distributions packages;</br>
 - .NET.  
 
-ON <b>Microsoft Store</b> (Windows 11 preview) are available Build <b>[32.90]</b> Packages.
+ON <b>Microsoft Store</b> (Windows 11 preview) are available Build <b>[32.96]</b> Packages.
  
 <h3>DEMO:</h3>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/DEMO">Demo app to download</a>.
@@ -62,7 +62,17 @@ Read OnLine:</br>
 <a href="https://issuu.com/xplab/docs/pwk-ft-01-it?fr=sYmIzYTQyOTE1NTc">[Italian]</a>
 </br>
 
+<h2>BOOKs</h2>
+Read OnLine:</br>
+<a href="https://issuu.com/xplab/docs/xplab-book-pwk-00-preludio-en?fr=sYmQzMDQyOTE1NTc">POWER-KI a programming language. Preludio.(EN) </a> </br>
+<a href="https://issuu.com/xplab/docs/f4n-01-pub?fr=sZWZmMTQyOTE1NTc">Factory 4 NOW (IT,EN)</a> </br>
+<a href="https://issuu.com/xplab/docs/tdm-40-pub?fr=sZDQ0OTQyOTE1NTc">TDM40 - La fabbrica intelligente 4.0 (IT) </a> </br>
+
+
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+33.00 - 18/10/21
+- Gui update.
 
 32.97 - 06/10/21
 - fix bug in OPC reconnection.
