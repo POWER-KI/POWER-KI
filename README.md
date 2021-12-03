@@ -47,6 +47,9 @@ ON <b>Microsoft Store</b> (Windows 11 preview) are available Build <b>[32.96]</b
 <h3>DEMO:</h3>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/DEMO">Demo app to download</a>.
 
+<h3>TUTORIAL:</h3>
+<a href="https://github.com/POWER-KI/POWER-KI/tree/master/TUTORIAL">Sample apps</a>.
+
 <h3>WRAP:</h3>
 Extend the POWER-KI Power with your code.</br>
 <a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/WRP-DEV-GUIDE-01.pdf">WRAP Developer's Guide</a>.
@@ -70,6 +73,10 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+33.08 - 03/12/21
+- added WebSosket to HTTP LIB;
+- OPC-UA access with password enabled. 
 
 33.00 - 18/10/21
 - Gui update.
