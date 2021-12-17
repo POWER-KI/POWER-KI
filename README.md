@@ -52,7 +52,8 @@ ON <b>Microsoft Store</b> (Windows 11 preview) are available Build <b>[32.96]</b
 
 <h3>WRAP:</h3>
 Extend the POWER-KI Power with your code.</br>
-<a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/WRP-DEV-GUIDE-01.pdf">WRAP Developer's Guide</a>.
+<a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/WRP-DEV-GUIDE-01.pdf">WRAP Developer's Guide</a>;</BR>
+<a href="https://github.com/POWER-KI/POWER-KI/tree/master/WRAP">WRAP directory</a>.
 
 <h2>NEXT</h2>
 - New WRAP: AWS. 
@@ -73,6 +74,9 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+33.11 - 17/12/21
+- in GUI added to pag: focused, stssize attributes. 
 
 33.08 - 03/12/21
 - added WebSosket to HTTP LIB;
