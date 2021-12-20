@@ -42,7 +42,7 @@ Requirements:</br>
 - Microsoft VCredist are installed by the distributions packages;</br>
 - .NET.  
 
-ON <b>Microsoft Store</b> (Windows 11 preview) are available Build <b>[32.96]</b> Packages.
+ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
  
 <h3>DEMO:</h3>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/DEMO">Demo app to download</a>.
