@@ -1,6 +1,6 @@
 # POWER-KI&reg;
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
-&copy;2010-2021 - XPLAB - Research in Automation - Brescia - ITALY</br> 
+&copy;2010-2022 - XPLAB - Research in Automation - Brescia - ITALY</br> 
 <a href="http://www.POWER-KI.com">POWER-KI official site </a>  
 
 POWER-KI establishes a New and Original paradigm for programming languages. 
@@ -56,7 +56,7 @@ Extend the POWER-KI Power with your code.</br>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/WRAP">WRAP directory</a>.
 
 <h2>NEXT</h2>
-- New WRAP: AWS. 
+- New WRAP: PYT !!! (what is this ? :-D )
 </br>
 
 <h2>FAST.TRACK The official POWER-KI Magazine</h2>
@@ -74,6 +74,9 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+33.23 - 01/03/22
+- In GUI added event MOUSE_BL, in BUFFER added QSWAP. 
 
 33.11 - 17/12/21
 - in GUI added to pag: focused, stssize attributes. 
