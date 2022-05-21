@@ -80,7 +80,7 @@ Read OnLine:</br>
 - MySQL/MariaDB connector Update;
 - Opc-UA Update (fix problems with password and certificate);
 - OpenCV updated;
-- added (but not documented) Direct assignment in function: </br>
+- added (but not documented) Direct assignment operator in function (:=): </br>
 	°b=0; 
 	°a=°b:=10 + 1;</br>
 	so: °a will be 11, °b 10
