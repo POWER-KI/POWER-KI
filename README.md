@@ -75,6 +75,15 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+33.66 - 21/05/22 *GREAT UPDATE*
+- Added LIB DRW for inMemory draw (same sintax of GUI DRAW);
+- MySQL/MariaDB connecto Update;
+- Opc-UA Update (fix problems with password and certificate);
+- added (but not documented) Direct assignment in function: 
+	°b=0; 
+	°a=°b:=10 + 1;
+	so: °a will be 11, °b 10
+
 33.23 - 01/03/22
 - In GUI added event MOUSE_BL, in BUFFER added QSWAP. 
 
