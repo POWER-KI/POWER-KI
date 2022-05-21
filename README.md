@@ -76,12 +76,13 @@ Read OnLine:</br>
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
 33.66 - 21/05/22 *GREAT UPDATE*
-- Added LIB DRW for inMemory draw (same sintax of GUI DRAW);
-- MySQL/MariaDB connecto Update;
+- Added LIB DRW for inMemory draw (same sintax as GUI DRAW);
+- MySQL/MariaDB connector Update;
 - Opc-UA Update (fix problems with password and certificate);
-- added (but not documented) Direct assignment in function: 
+- OpenCV updated;
+- added (but not documented) Direct assignment in function: </br>
 	°b=0; 
-	°a=°b:=10 + 1;
+	°a=°b:=10 + 1;</br>
 	so: °a will be 11, °b 10
 
 33.23 - 01/03/22
