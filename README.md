@@ -75,6 +75,10 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+33.78 - 02/07/22
+- bug fix;
+- function MTH_CNV.
+
 33.66 - 21/05/22 *GREAT UPDATE*
 - Added LIB DRW for inMemory draw (same sintax as GUI DRAW);
 - MySQL/MariaDB connector Update;
