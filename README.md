@@ -75,9 +75,9 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
-33.78 - 02/07/22
+33.87 - 12/08/22
 - bug fix;
-- function MTH_CNV.
+- function MTH_CNV, SYMB_HSH.
 
 33.66 - 21/05/22 *GREAT UPDATE*
 - Added LIB DRW for inMemory draw (same sintax as GUI DRAW);
