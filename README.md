@@ -77,7 +77,7 @@ Read OnLine:</br>
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
 33.88 - 24/08/22
-- <b>EXPERIMENTAL python WRAP. A <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a> example is provided. </b>. 
+- <b>EXPERIMENTAL PYT WRAP (python) a <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a> example is provided. </b>. 
 
 33.87 - 12/08/22
 - bug fix;
