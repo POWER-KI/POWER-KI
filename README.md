@@ -45,6 +45,10 @@ Requirements:</br>
 
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
  
+<h2>NEWS</h2>
+- New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>.
+</br>
+ 
 <h3>DEMO:</h3>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/DEMO">Demo app to download</a>.
 
@@ -55,10 +59,6 @@ ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 Extend the POWER-KI Power with your code.</br>
 <a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/WRP-DEV-GUIDE-01.pdf">WRAP Developer's Guide</a>;</BR>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/WRAP">WRAP directory</a>.
-
-<h2>NEWS</h2>
-- New WRAP: PYT - (EXPERIMENTAL) execute <b>from PWK->PYTHON code and from PyTHON->PWK code</b>.
-</br>
 
 <h2>FAST.TRACK The official POWER-KI Magazine</h2>
 Read OnLine:</br>
@@ -77,7 +77,7 @@ Read OnLine:</br>
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
 33.88 - 24/08/22
-- <b>EXPERIMENTAL python WRAP</b>. 
+- <b>EXPERIMENTAL python WRAP. A <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a> example is provided. </b>. 
 
 33.87 - 12/08/22
 - bug fix;
