@@ -11,3 +11,6 @@ From PWK the use is very simple:</br>
 wrp=WRP_OPN("YourWrpDll");<br>
 res=WRP_EXC(Wrp,"YourFunctionName", par1, par2);
 </code>
+
+<h4>NOTE</h4>
+PyThon WRAP is EXPERIMENTAL</br>

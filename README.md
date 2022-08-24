@@ -1,4 +1,5 @@
 # POWER-KI&reg;
+
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
 &copy;2010-2022 - XPLAB - Research in Automation - Brescia - ITALY</br> 
 <a href="http://www.POWER-KI.com">POWER-KI official site </a>  
@@ -55,8 +56,8 @@ Extend the POWER-KI Power with your code.</br>
 <a href="https://github.com/POWER-KI/POWER-KI/blob/master/MANUALS/WRP-DEV-GUIDE-01.pdf">WRAP Developer's Guide</a>;</BR>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/WRAP">WRAP directory</a>.
 
-<h2>NEXT</h2>
-- New WRAP: PYT !!! (what is this ? :-D )
+<h2>NEWS</h2>
+- New WRAP: PYT - (EXPERIMENTAL) execute <b>from PWK->PYTHON code and from PyTHON->PWK code</b>.
 </br>
 
 <h2>FAST.TRACK The official POWER-KI Magazine</h2>
@@ -74,6 +75,9 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+33.88 - 24/08/22
+- <b>EXPERIMENTAL python WRAP</b>. 
 
 33.87 - 12/08/22
 - bug fix;
