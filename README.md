@@ -89,7 +89,7 @@ Read OnLine:</br>
 - Opc-UA Update (fix problems with password and certificate);
 - OpenCV updated;
 - added (but not documented) Direct assignment operator in function (:=): </br>
-	°b=0; 
+	°b=0;</br> 
 	°a=°b:=10 + 1;</br>
 	so: °a will be 11, °b 10
 
