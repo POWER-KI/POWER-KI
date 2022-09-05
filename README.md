@@ -76,6 +76,9 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+33.89 - 05/09/22
+- minor bug fix for trash buf_mtx.
+
 33.88 - 24/08/22
 - <b>[EXPERIMENTAL] PYT WRAP (python) a <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a> example is provided. </b>.</BR>
 You should install on your computer pyThon 3.10.6 32bit. 
