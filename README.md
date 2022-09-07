@@ -46,7 +46,8 @@ Requirements:</br>
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
  
 <h2>NEWS</h2>
-- New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>.
+- New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;
+- Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
 </br>
  
 <h3>DEMO:</h3>
@@ -75,6 +76,9 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+33.90 - 07/09/22
+- updated PYT WRAP [EXPERIMENTAL] and demo app.
 
 33.89 - 05/09/22
 - minor bug fix for trash buf_mtx.
