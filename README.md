@@ -46,7 +46,7 @@ Requirements:</br>
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
  
 <h2>NEWS</h2>
-- New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;
+- New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
 - Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
 </br>
  
