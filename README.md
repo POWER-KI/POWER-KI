@@ -9,6 +9,7 @@ POWER-KI establishes a New and Original paradigm for programming languages.
 Among the most significant features:
 - Program Code as a Knowledge Base with separation between Data, Flow, Code;
 - Plastic Architecture (Full-Reflective, Self-Modifiable and Persitence of executing elements);
+- Hybrid programming: PWK <-> PyThon;
 - Designed for Multi Threading;
 - Native Cloud:
 - Simple Code Syntax for easy behaviour understanding;
@@ -76,6 +77,9 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+33.92 - 20/09/22
+- minor bug fix (in GUI);
 
 33.90 - 07/09/22
 - updated PYT WRAP [EXPERIMENTAL] and demo app.
