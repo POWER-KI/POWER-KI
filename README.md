@@ -78,6 +78,9 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+33.93 - 27/09/22
+- bug fix for: #ELSE_OTIF; Tutorial: added CF-Converter-01.pka;
+
 33.92 - 20/09/22
 - minor bug fix (in GUI);
 
