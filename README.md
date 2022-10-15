@@ -3,8 +3,13 @@
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
 &copy;2010-2022 - XPLAB - Research in Automation - Brescia - ITALY</br> 
 <a href="http://www.POWER-KI.com">POWER-KI official site </a>  
+<a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 
-POWER-KI establishes a New and Original paradigm for programming languages. 
+<b>POWER-KI establishes a New and Original paradigm for programming languages.</b> 
+
+POWER-KI allows <b>HYBRID PROGRAMMING</b>, i.e. the development of applications with components created with different languages in a single package, making the most of each of them. In fact, from POWER-KI it is possible to directly execute PyThon code, C / C ++ code using WRAP and javascript in the Web User Interface.
+In this way it is possible to create applications based on Python code that take advantage of the POWER-KI Native Cloud for the user interface or create C / C ++ functions for maximum performance.
+
 
 Among the most significant features:
 - Program Code as a Knowledge Base with separation between Data, Flow, Code;
