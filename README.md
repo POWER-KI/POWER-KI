@@ -7,8 +7,8 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 
 <b>POWER-KI establishes a New and Original paradigm for programming languages.</b> 
 
-POWER-KI allows <b>HYBRID PROGRAMMING</b>, i.e. the development of applications with components created with different languages in a single package, making the most of each of them. In fact, from POWER-KI it is possible to directly execute PyThon code, C / C ++ code using WRAP and javascript in the Web User Interface.
-In this way it is possible to create applications based on Python code that take advantage of the POWER-KI Native Cloud for the user interface or create C / C ++ functions for maximum performance.
+POWER-KI allows <b>HYBRID PROGRAMMING</b>, i.e. the development of applications with components created with different languages in a single package, making the most of each of them. In fact from POWER-KI it is possible to directly execute PyThon code, C / C ++ code using WRAP and javascript in the Web User Interface.
+In this way, for example, it is possible to create applications based on Python code that take advantage of the POWER-KI Native Cloud for the user interface or create C / C ++ functions for maximum performance.
 
 
 Among the most significant features:
@@ -82,6 +82,8 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+33.98 - 15/10/22
 
 33.97 - 05/10/22 (***)
 - <b>OK for WIN11 22H2</b>;  
