@@ -82,6 +82,10 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+34.05 - 23/10/22 (***)
+- Fix of a BUG in SOK that could cause malfunction in GUI ;***
+- updated PYT (python) WRAP;
+
 33.99 - 17/10/22
 - updated PYT (python) WRAP;
 
