@@ -82,6 +82,12 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+34.40 - 11/11/22
+- GUI: now GUI can be larger then screen size;
+- improved OPC-UA;
+- updated PYT Wrap to python 3.11.x;
+- Updated TST-PYT-01.pwk (see above for link);
+
 34.05 - 23/10/22 (***)
 - Fix of a BUG in SOK that could cause malfunction in GUI ;***
 - updated PYT (python) WRAP;
