@@ -82,6 +82,11 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+34.57 - 21/12/22
+- updated GUI web component;
+- updated OCV wrap;
+- updated DEMO\SNAP7CONN-01.pwk .
+
 34.41 - 12/11/22
 - updated PYT Wrap to python 3.11.x;
 - Updated TST-PYT-01.pwk (see above for link);
