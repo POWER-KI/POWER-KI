@@ -82,6 +82,9 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+34.59 - 02/01/23
+- fix a display bug in WorkBench edit item page introduced with 34.57 buid. 
+
 34.57 - 21/12/22
 - updated GUI web component;
 - updated OCV wrap;
