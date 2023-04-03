@@ -1,7 +1,7 @@
 # POWER-KI&reg;
 
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
-&copy;2010-2022 - XPLAB - Research in Automation - Brescia - ITALY</br> 
+&copy;2010-2023 - XPLAB - Research in Automation - Brescia - ITALY</br> 
 <a href="http://www.POWER-KI.com">POWER-KI official site </a>  
 <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 
@@ -81,6 +81,11 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+35.08 - 03/04/23
+- fix a bug in MOD operator;
+- GUI: added indirect color resolution e.g. blue@\pwk (=0;0;180);
+- new WRAP : AIT (A.I. Tools) for embedded vector support.   
 
 34.59 - 02/01/23
 - fix a display bug in WorkBench edit item page introduced with 34.57 buid. 
