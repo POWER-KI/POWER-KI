@@ -52,6 +52,7 @@ Requirements:</br>
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
  
 <h2>NEWS</h2>
+- <a href="https://github.com/POWER-KI/GPT">Try the PWK+GPT DEMOS !!!</a> 
 - New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
 - Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
 </br>
@@ -82,6 +83,11 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+35.14 - 27/05/23
+- Function  EXO and EXOTHR are now deprecated use EXC and EXCTHR (same syntax);
+- new function CALL to invoke BLK inside a CODE;
+- minor bug fix: 
 
 35.11 - 20/04/23
 - TREE LIB: add SRC function.
