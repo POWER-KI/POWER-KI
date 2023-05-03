@@ -84,7 +84,11 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
-35.14 - 27/05/23
+35.19 - 03/05/23
+- added KB1_JSON for Json -> KB1;
+- minor bug fix;
+
+35.14 - 27/04/23
 - Function  EXO and EXOTHR are now deprecated use EXC and EXCTHR (same syntax);
 - new function CALL to invoke BLK inside a CODE;
 - minor bug fix: 
