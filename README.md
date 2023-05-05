@@ -19,6 +19,7 @@ Requirements:</br>
 
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 
+------------------
 <h3>POWER-KI establishes a New and Original paradigm for programming languages.</h3> 
 
 POWER-KI allows <b>HYBRID PROGRAMMING</b>, i.e. the development of applications with components created with different languages in a single package, making the most of each of them. In fact from POWER-KI it is possible to directly execute PyThon code, C / C ++ code using WRAP and javascript in the Web User Interface.
@@ -49,7 +50,7 @@ POWER-KI is an industrial grade language, which has found wide use in advanced f
 But the application possibilities range from the Web/eCommerce, to the IoT, to decision-making and management systems in general.</br>
  
 <h2>NEWS</h2>
-- <a href="https://github.com/POWER-KI/GPT">Try the PWK+GPT DEMOS !!!</a> 
+- A new Repository for <a href="https://github.com/POWER-KI/GPT"><b>GPT</b></a> Demo Apps;</br>
 - New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
 - Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
 </br>
