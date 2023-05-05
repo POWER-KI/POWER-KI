@@ -16,8 +16,6 @@ Ready to install (.msi) package:
 
 Requirements:</br>
 - Windows 10 or above;
-- Microsoft VCredist are installed by the distributions packages;</br>
-- .NET.  
 
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 
