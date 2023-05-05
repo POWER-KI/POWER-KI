@@ -6,7 +6,22 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<b>POWER-KI establishes a New and Original paradigm for programming languages.</b> 
+<h3>INSTALL-PACKAGEs Ver.11:</h3>
+Ready to install (.msi) package:
+
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V3)</a>
+(The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V3)</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
+
+Requirements:</br>
+- Windows 10 or above;
+- Microsoft VCredist are installed by the distributions packages;</br>
+- .NET.  
+
+ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
+
+<h3>POWER-KI establishes a New and Original paradigm for programming languages.</h3> 
 
 POWER-KI allows <b>HYBRID PROGRAMMING</b>, i.e. the development of applications with components created with different languages in a single package, making the most of each of them. In fact from POWER-KI it is possible to directly execute PyThon code, C / C ++ code using WRAP and javascript in the Web User Interface.
 In this way, for example, it is possible to create applications based on Python code that take advantage of the POWER-KI Native Cloud for the user interface or create C / C ++ functions for maximum performance.
@@ -34,22 +49,6 @@ The ecosystem of applications ranges from Wiz and Tools for the automation of ap
 
 POWER-KI is an industrial grade language, which has found wide use in advanced factory and plant automation applications, what now is called Factory 4.0, anticipating its times by a decade. 
 But the application possibilities range from the Web/eCommerce, to the IoT, to decision-making and management systems in general.</br>
-
-
-<h3>INSTALL-PACKAGEs Ver.11:</h3>
-Ready to install (.msi) package:
-
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V3)</a>
-(The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V3)</a></br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
-
-Requirements:</br>
-- Windows 10 or above;
-- Microsoft VCredist are installed by the distributions packages;</br>
-- .NET.  
-
-ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
  
 <h2>NEWS</h2>
 - <a href="https://github.com/POWER-KI/GPT">Try the PWK+GPT DEMOS !!!</a> 
@@ -83,6 +82,9 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+35.20 - 05/05/23
+- extended HTTP time out (90000);
 
 35.19 - 03/05/23
 - added KB1_JSON for Json -> KB1;
