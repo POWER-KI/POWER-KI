@@ -81,6 +81,9 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+35.21 - 09/05/23
+- Minor bug fix in KB1_JSON;
+
 35.20 - 05/05/23
 - extended HTTP time out (90000);
 
