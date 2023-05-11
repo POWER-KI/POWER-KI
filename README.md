@@ -11,13 +11,23 @@ Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V3)</a>
 (The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V3)</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4)/a></br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
 
 Requirements:</br>
 - Windows 10 or above;
 
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
+
+------------------
+<h3>NEWS</h3>
+- NEW <i>"CALCOLATRICE V4"</i> with: 
+	* GPT PDF MANAGER
+	* GPT DEBATE
+- A new Repository for <a href="https://github.com/POWER-KI/GPT"><b>GPT</b></a> Demo Apps;</br>
+- New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
+- Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
+</br>
 
 ------------------
 <h3>POWER-KI establishes a New and Original paradigm for programming languages.</h3> 
@@ -49,11 +59,6 @@ The ecosystem of applications ranges from Wiz and Tools for the automation of ap
 POWER-KI is an industrial grade language, which has found wide use in advanced factory and plant automation applications, what now is called Factory 4.0, anticipating its times by a decade. 
 But the application possibilities range from the Web/eCommerce, to the IoT, to decision-making and management systems in general.</br>
  
-<h2>NEWS</h2>
-- A new Repository for <a href="https://github.com/POWER-KI/GPT"><b>GPT</b></a> Demo Apps;</br>
-- New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
-- Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
-</br>
  
 <h3>DEMO:</h3>
 <a href="https://github.com/POWER-KI/POWER-KI/tree/master/DEMO">Demo app to download</a>.
@@ -80,6 +85,9 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+35.23 - 11/05/23
+- new Calcolatrice v4 with GPT apps. 
 
 35.21 - 09/05/23
 - Minor bug fix in KB1_JSON;
