@@ -86,6 +86,9 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
+35.26 - 12/05/23
+- minor optimization in GPT apps.
+
 35.23 - 11/05/23
 - new Calcolatrice v4 with GPT apps. 
 
