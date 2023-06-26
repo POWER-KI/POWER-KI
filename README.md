@@ -6,7 +6,7 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.11 - Build 35.33:</h3>
+<h3>INSTALL-PACKAGEs Ver.11 - Build 35.54:</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
@@ -85,6 +85,10 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+35.54 - 26/06/23
+- Updated WEB lib;
+- Updated GPT-PDF and GPT-DEBATE.
 
 35.33 - 08/06/23
 - minor bug fix in sys tknz, tknzop.
