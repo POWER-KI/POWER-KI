@@ -24,8 +24,8 @@ ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 - NEW lib ARC for ZIP;</br>
 - NEW <i>"CALCOLATRICE V4"</i> with: 
 
-** GPT PDF MANAGER (.pdf, .pptx, .odt, .ods, .txt)
-** GPT DEBATE.
+-- GPT PDF MANAGER (.pdf, .pptx, .odt, .ods, .txt)
+-- GPT DEBATE.
 
 - A new Repository for <a href="https://github.com/POWER-KI/GPT"><b>GPT</b></a> Demo Apps;</br>
 - New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
