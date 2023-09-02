@@ -6,7 +6,7 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.11 - Build 35.70:</h3>
+<h3>INSTALL-PACKAGEs Ver.11 - Build 35.78:</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
@@ -21,9 +21,10 @@ ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 
 ------------------
 <h3>NEWS</h3>
+- NEW lib ARC for ZIP;
 - NEW <i>"CALCOLATRICE V4"</i> with: 
-	* GPT PDF MANAGER
-	* GPT DEBATE
+	* GPT PDF MANAGER - .pdf, .pptx, .odt, .ods, .txt
+	* GPT DEBATE 
 - A new Repository for <a href="https://github.com/POWER-KI/GPT"><b>GPT</b></a> Demo Apps;</br>
 - New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
 - Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
@@ -85,6 +86,11 @@ Read OnLine:</br>
 
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
+
+35.78 - 02/09/23
+- LIB ARC for ZIP archive;
+- LIB TREE: added TREE_TRV traverse the tree;
+- Minor bug fix;
 
 35.70 - 14/08/23
 - Updated WRAP PYT (python) added PYT_RELOAD(module), demo and source.

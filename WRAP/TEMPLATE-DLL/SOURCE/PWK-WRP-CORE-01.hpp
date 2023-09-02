@@ -283,6 +283,10 @@ int WRP_GETPAR_IDX(PTR_TO(U_CHR)id,const PTR_TO(U_CHR) fun);
 
 ANY WRP_GETPAR(PTR_TO(U_CHR)id, ANY buf, int szt, const PTR_TO(U_CHR) fun);
 
+ANY _WRP_GETPAR(unsigned n, ANY buf, const PTR_TO(U_CHR) fun);
+
+U_STRG _WRP_GETPAR_TYP(unsigned n, ANY buf, const PTR_TO(U_CHR) fun);
+
 ANY WRP_SET_DCLPAR(int pn, PTR_TO(U_CHR)nam, PTR_TO(U_CHR)typ, int tySz, ANY parBuf, PTR_TO(U_CHR)FUNCTIONW);
 
 // -----------------------------------------------------------------------
@@ -324,6 +328,17 @@ ANY& _wtp_= *(ANY*)&((U8*)_parBuf_)[0];
 				} \
 			} \
 		}
+
+//------------------------------------------------------
+// ESTENSIONE 2023
+#define WRP_GETPAR_N(typ,NUM) \
+	*(typ*) _WRP_GETPAR( NUM,_parBuf_, (U_CHR*) __FUNCTIONW__);
+
+
+#define WRP_GETPAR_TYP(NUM) \
+		_WRP_GETPAR_TYP( NUM, _parBuf_, (U_CHR*) __FUNCTIONW__);
+
+
 //------------------------------------------------------
 #define WRP_DCLRES(typ,nam, ...) \
 	typ &nam= *(typ*) WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(typ),(U_CHR*) L#typ,(U_CHR*) __FUNCTIONW__,NULL, _parNum_< 0, NULL);
@@ -446,6 +461,14 @@ extern "C" NONE WRP_CALL_PWK_TRIG(ANY parTrg, PTR_TO(U_CHR)parLis, int mode);
 #define WRP_PWK_EXEC(CLC)\
 	(PWK_CBS)(5,(U_CHR*) CLC, NULL, NULL) 
 // Return PTR_TO(U_CHR)
+
+// -----------------------------------------------------------------------
+// Print an error
+// -----------------------------------------------------------------------
+#define WRP_ERROR(LIB, TXT, NUM)\
+	(PWK_CBS)(7,(U_CHR*) LIB, TXT, NULL) 
+// Return PTR_TO(U_CHR)
+
 
 // =======================================================================
 

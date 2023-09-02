@@ -275,6 +275,53 @@ ANY WRP_GETPAR(PTR_TO(U_CHR)id, ANY buf, int szt, const PTR_TO(U_CHR) fun)
 	return NULL;
 	}
 
+ANY _WRP_GETPAR(unsigned y, ANY buf, const PTR_TO(U_CHR) fun) // ESTENSIONE 2023
+	{
+	int i,in, yn;
+	PTR_TO(WRP_PAR)par;
+
+	in= wrpTbl->nf;
+
+	for(i=0; i<in; i++)
+		{
+		if(!_wcsicmp(fun,wrpTbl->pf[i].fnc))
+			{
+			par = wrpTbl->pf[i].par;
+			yn= wrpTbl->pf[i].np;
+
+			if(y < yn)
+				{
+				return &((U8*)buf)[par[y].off];
+				}			
+			}
+		}
+	return NULL;
+	}
+
+U_STRG _WRP_GETPAR_TYP(unsigned y, ANY buf, const PTR_TO(U_CHR) fun) // ESTENSIONE 2023
+	{
+	int i,in, yn;
+	PTR_TO(WRP_PAR)par;
+
+	in= wrpTbl->nf;
+
+	for(i=0; i<in; i++)
+		{
+		if(!_wcsicmp(fun,wrpTbl->pf[i].fnc))
+			{
+			par = wrpTbl->pf[i].par;
+			yn= wrpTbl->pf[i].np;
+
+			if(y < yn)
+				{
+				return par[y].typ;
+				}			
+			}
+		}
+	return NULL;
+	}
+
+
 ANY WRP_SET_DCLPAR(int pn, PTR_TO(U_CHR)nam, PTR_TO(U_CHR)typ, int tySz, ANY parBuf, PTR_TO(U_CHR)FUNCTIONW)
 	{
 	if(pn< 0)
