@@ -22,7 +22,8 @@ ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 ------------------
 <h3>NEWS</h3>
 - NEW lib ARC for ZIP;</br>
-- NEW <i>"CALCOLATRICE V4"</i> with: </br>
+- NEW <i>"CALCOLATRICE V4"</i> with: 
+
 * GPT PDF MANAGER (.pdf, .pptx, .odt, .ods, .txt)
 * GPT DEBATE.
 
