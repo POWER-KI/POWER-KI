@@ -21,14 +21,15 @@ ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 
 ------------------
 <h3>NEWS</h3>
-- NEW lib ARC for ZIP;</br>
-- NEW <i>"CALCOLATRICE V4"</i> with: 
--- GPT PDF MANAGER (.pdf, .pptx, .odt, .ods, .txt)
--- GPT DEBATE.
-- A new Repository for <a href="https://github.com/POWER-KI/GPT"><b>GPT</b></a> Demo Apps;</br>
-- New WRAP: PYT - (EXPERIMENTAL) <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
-- Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
+* NEW lib ARC for ZIP;<br>
+* NEW <i>"CALCOLATRICE V4"</i> with:<br> 
+- GPT PDF MANAGER (.pdf, .pptx, .odt, .ods, .txt)<br>
+- GPT DEBATE.<br>
+* A new Repository for <a href="https://github.com/POWER-KI/GPT"><b>GPT</b></a> Demo Apps;</br>
+* New WRAP: PYT - <b>execute from PWK->PYTHON code and from PyTHON->PWK code</b>;</br>
+* Demo APP <a href="https://github.com/POWER-KI/POWER-KI/raw/master/WRAP/PYT/TST-PYT-01.pwk"> TST-PYT-01.pwk</a>
 </br>
+
 
 ------------------
 <h3>POWER-KI establishes a New and Original paradigm for programming languages.</h3> 
