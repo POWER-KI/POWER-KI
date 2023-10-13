@@ -91,7 +91,7 @@ Read OnLine:</br>
 35.87 - 12/10/13
 - BUG FIX for +=, -=;
 - Updated GPT-PDF manager.
-- Updated SNA7CONN.
+- Updated SNAP7CONN.
 
 35.86 - 21/09/23
 - Updated WRAP OCV to opencv 4.8;
