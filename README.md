@@ -88,7 +88,7 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
-35.87 - 12/10/13
+35.87 - 12/10/23
 - BUG FIX for +=, -=;
 - Updated GPT-PDF manager.
 - Updated SNAP7CONN.
