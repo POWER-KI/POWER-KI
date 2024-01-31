@@ -2,6 +2,7 @@
 
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
 &copy;2010-2023 - XPLAB - Research in Automation - Brescia - ITALY</br> 
+[Concept, Design and Coding by Cesare A. Perani]</br>
 * <a href="http://www.POWER-KI.com">POWER-KI official site </a>  
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
@@ -88,10 +89,10 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 11 CodeName: Veloce)</h2> 
 
-35.87 - 12/10/13
+35.87 - 12/10/23
 - BUG FIX for +=, -=;
 - Updated GPT-PDF manager.
-- Updated SNA7CONN.
+- Updated SNAP7CONN.
 
 35.86 - 21/09/23
 - Updated WRAP OCV to opencv 4.8;
