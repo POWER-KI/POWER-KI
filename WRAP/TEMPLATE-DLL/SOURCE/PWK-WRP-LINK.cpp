@@ -27,10 +27,8 @@
   ----------------------  ---------------------------------------------------
 */
 
-
-#include "PWK-WRP-LINK.hpp"
 #include <windows.h>
-
+#include "PWK-WRP-LINK.hpp"
 
 FUNCTION(PTR_TO(U_CHR), String Copy)
 StrCpy( PTR_TO(U_CHR)d, PTR_TO(U_CHR)s)
@@ -1760,7 +1758,7 @@ int HaveSig(PTR_TO(U_CHR) s)
 			#endif
 			}
 		else {		
-			StrFormat(buf,49,L"%f",i);
+			StrFormat(buf,49,L"%lf",i);//!!!2023
 			}
 				
 		return SetS(StrDup(buf));

@@ -23,7 +23,7 @@
 
    REVISION HISTORY:
   ----------------------  ---------------------------------------------------
-   01                     First version
+   17/11/23               Revised 
   ----------------------  ---------------------------------------------------
 */
 
@@ -42,6 +42,7 @@
 NOTE("IN Properties\C/C++\Command Line:Additional Option -> add: /Zc:strictStrings- ")
 
 //#pragma optimize( "", off ) //Disable Optimization
+
 
 // =======================================================================
 // Your Type Exposed to POWER-KI 

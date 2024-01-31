@@ -463,12 +463,11 @@ extern "C" NONE WRP_CALL_PWK_TRIG(ANY parTrg, PTR_TO(U_CHR)parLis, int mode);
 // Return PTR_TO(U_CHR)
 
 // -----------------------------------------------------------------------
-// Print an error
+//START An External Thread with POWER-KI Access
 // -----------------------------------------------------------------------
-#define WRP_ERROR(LIB, TXT, NUM)\
-	(PWK_CBS)(7,(U_CHR*) LIB, TXT, NULL) 
-// Return PTR_TO(U_CHR)
-
+#define WRP_PWK_THREAD(NAME,FUN_PTR,PAR)\
+	(PWK_CBS)(8,(U_CHR*) NAME, FUN_PTR, PAR) 
+// Return HANDLE (ANY) 
 
 // =======================================================================
 
@@ -501,7 +500,10 @@ WRP_EXPORTS PTR_TO(WRP_TBL) PWK_GETTBL(WRPPWK_TCB trig, WRPPWK_CBS cbs) \
 #define WRP_RET_OK		return 1
 #define WRP_RET_ERR		return 0
 
+// -----------------------------------------------------------------------
 
+void LOG(PTR_TO(U_CHR)s);
+void LOG(PTR_TO(A_CHR)s);
 
 // =======================================================================
 // PWK WRP - END

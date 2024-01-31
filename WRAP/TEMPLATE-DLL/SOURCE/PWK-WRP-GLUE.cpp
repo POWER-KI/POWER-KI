@@ -2,6 +2,7 @@
 // PWK_GLUE
 // =======================================================================
 #include "PWK-WRP-CORE-01.hpp"
+#include <stdio.h>
 
 PTR_TO(WRP_TBL) wrpTbl = NULL;			// Main data table
 WRPPWK_TCB	PWK_TRIGGER = NULL;			// POWER-KI Trigger CallBack
@@ -11,6 +12,27 @@ LIST_OBJ_MNG<lisParElm> lisPar;
 LIST_OBJ_MNG<lisParElm> lisRes;
 
 
+void LOG(PTR_TO(U_CHR)s)
+     {
+     FILE* log;
+
+     log = fopen("C:\\PWK-TMP\\WRAPLOG.txt", "a+");
+
+     fwprintf(log, L"\r\n%s", s);
+     fclose(log);
+     }
+
+void LOG(PTR_TO(A_CHR)s)
+     {
+     FILE* log;
+
+     log = fopen("C:\\PWK-TMP\\WRAPLOG.txt", "a+");
+
+     fprintf(log, "\r\n%s", s);
+     fclose(log);
+
+     }
+
 // =======================================================================
 extern "C" NONE WRP_CALL_PWK_TRIG(ANY parTrg, PTR_TO(U_CHR)parLis, int mode)
 	{
@@ -18,18 +40,76 @@ extern "C" NONE WRP_CALL_PWK_TRIG(ANY parTrg, PTR_TO(U_CHR)parLis, int mode)
 	}
 
 // =======================================================================
-FUNCTION(NONE, Send a text to POWER-KI chat)
-WRP_TRACE(PTR_TO(U_CHR)t)
+NONE WRP_TRACE(PTR_TO(U_CHR) T, ...) 
 	{
-	int l= StrLen(t) + 100;
-	PTR_TO(U_CHR)tx;
+	if (!T)return;
+	int l = StrLen(T) + 1000;
+	PTR_TO(U_CHR)buf=NULL;
+	PTR_TO(U_CHR)tx = NULL;
 
-	tx=new U_CHR[l];
-	StrFormat(tx,l,L"Chatput(\"%s\")",t);
+	va_list args;
+	va_start(args, T);
+
+	if(args)
+		{
+		buf = new U_CHR[l];
+		int written = _vsnwprintf(buf, l, T, args);
+		va_end(args);
+
+		// Check for errors
+		if (written < 0) 
+			{
+			if(buf) delete buf;
+			return;
+			}
+		T=buf;
+		}
+
+	tx = new U_CHR[l];
+	
+	StrFormat(tx, l, L"Chatput(\"%s\")", T);
 	WRP_PWK_EXEC(tx);
 	delete tx;
-	};
+	if (buf) delete buf;
+	}
 
+NONE WRP_TRACE(PTR_TO(A_CHR) T, ...) 
+	{
+	if (!T)return;
+	int l = StrLen(T) + 1000;
+	PTR_TO(A_CHR)buf=NULL;
+	PTR_TO(A_CHR)tx = NULL;
+	XU_VAL t;
+
+	va_list args;
+	va_start(args, T);
+
+	if(args)
+		{
+		buf = new A_CHR[l+1];
+		int written = vsnprintf(buf, l, T, args);
+		va_end(args);
+
+		// Check for errors
+		if (written < 0) 
+			{
+			if(buf) delete buf;
+			return;
+			}
+		T=buf;
+		}
+
+	tx = new A_CHR[l];
+	
+	sprintf(tx,"Chatput(\"%s\")", T);
+
+	t.SetS(StrAtoU(tx));
+	WRP_PWK_EXEC(t);
+	delete tx;
+	if (buf) delete buf;
+	}
+
+//------------------------------------------
 
 FUNCTION(NONE, Register Parameter)
 PWK_WRP_PAR_REG(PTR_TO(U_CHR)id, PTR_TO(U_CHR)typ, int szt)
@@ -277,7 +357,7 @@ ANY WRP_GETPAR(PTR_TO(U_CHR)id, ANY buf, int szt, const PTR_TO(U_CHR) fun)
 
 ANY _WRP_GETPAR(unsigned y, ANY buf, const PTR_TO(U_CHR) fun) // ESTENSIONE 2023
 	{
-	int i,in, yn;
+	unsigned i,in, yn;
 	PTR_TO(WRP_PAR)par;
 
 	in= wrpTbl->nf;
@@ -300,7 +380,7 @@ ANY _WRP_GETPAR(unsigned y, ANY buf, const PTR_TO(U_CHR) fun) // ESTENSIONE 2023
 
 U_STRG _WRP_GETPAR_TYP(unsigned y, ANY buf, const PTR_TO(U_CHR) fun) // ESTENSIONE 2023
 	{
-	int i,in, yn;
+	unsigned i,in, yn;
 	PTR_TO(WRP_PAR)par;
 
 	in= wrpTbl->nf;

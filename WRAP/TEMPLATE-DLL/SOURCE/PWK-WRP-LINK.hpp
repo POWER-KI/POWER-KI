@@ -420,3 +420,28 @@ BUF_MTX_DATA
 
 //---------------------------------------------------------------------------
 
+class WRP_SMF
+{
+	HANDLE mtx;
+	bool flag;
+
+public:
+	WRP_SMF() {
+		mtx = CreateMutex(NULL, FALSE, NULL);
+		flag = false;
+	};
+
+	~WRP_SMF() {
+		CloseHandle(mtx);
+	};
+
+	void Rosso() {
+		WaitForSingleObject(mtx, INFINITE);
+		flag = true;
+	};
+
+	void Verde() {
+		flag = false;
+		ReleaseMutex(mtx);
+	}
+};

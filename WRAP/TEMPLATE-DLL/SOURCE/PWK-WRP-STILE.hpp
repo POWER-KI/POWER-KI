@@ -79,18 +79,16 @@ typedef int				RSLT;		//Result
 
 //===========================================================================
 
-
-typedef unsigned char        BYTE;		// 8 bit
-typedef unsigned short      WORD;		//16 bit
-#ifdef WIN32
+#ifdef _WIN64
+     typedef unsigned long long    PTRU;     //64 bit 
+#else
+     typedef unsigned long         PTRU;     //32 bit 
+     typedef unsigned char         BYTE;	// 8 bit
+     typedef unsigned short        WORD;	//16 bit
 	typedef unsigned long         DWORD;	//32 bit
-#else 
-	typedef unsigned int         DWORD;	//32 bit
 #endif
 	
 typedef unsigned VLONG		QWORD;		//64 bit
-
-
 
 typedef unsigned char         U8;
 typedef unsigned short        U16;
