@@ -104,7 +104,7 @@ Read OnLine:</br>
 <a href="https://issuu.com/xplab/docs/f4n-01-pub?fr=sZWZmMTQyOTE1NTc">Factory 4 NOW (IT,EN)</a> </br>
 <a href="https://issuu.com/xplab/docs/tdm-40-pub?fr=sZDQ0OTQyOTE1NTc">TDM40 - La fabbrica intelligente 4.0 (IT) </a> </br>
 
-<h2>CHANGE LOG (ver. 64.12 CodeName: Veloce)</h2> 
+<h2>CHANGE LOG (ver. 64.12 CodeName: Immagina)</h2> 
 
 12.41 - 21/05/24
 - Added funtion to DRW lib;
