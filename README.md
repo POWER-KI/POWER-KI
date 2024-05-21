@@ -37,7 +37,9 @@ ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 - LOCAL Text2Model Embedder!</br>
 - LOCAL NNN Not Neural Network</br>
 
-(old news) 
+
+------------------
+<h3>OLD NEWS</h3>
 * NEW lib ARC for ZIP;<br>
 * NEW <i>"CALCOLATRICE V4"</i> with:<br> 
 - GPT PDF MANAGER (.pdf, .pptx, .odt, .ods, .txt)<br>
