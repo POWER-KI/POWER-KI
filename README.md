@@ -109,7 +109,7 @@ Read OnLine:</br>
 12.41 - 21/05/24
 - Added funtion to DRW lib;
 - New AI Tools;
-- OpenCv: new function.
+- OpenCv: new functions.
 
 <h2>CHANGE LOG (ver. 32.11 CodeName: Veloce)</h2> 
 
