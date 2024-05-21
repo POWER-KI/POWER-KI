@@ -32,10 +32,10 @@ ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 
 ------------------
 <h3>NEWS</h3>
-* RollOut of 64 bit version with <b>AI tools LIB</b>:
-- LOCAL Vector Manager;<br>
-- LOCAL Text2Model Embedder!<br>
-- LOCAL NNN Not Neural Network<br>
+* RollOut of 64 bit version with <b>AI tools LIB</b>:</br>
+- LOCAL Vector Manager;</br>
+- LOCAL Text2Model Embedder!</br>
+- LOCAL NNN Not Neural Network</br>
 
 (old news) 
 * NEW lib ARC for ZIP;<br>
