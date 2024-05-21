@@ -299,7 +299,11 @@ WRP_RES_TYP(const PTR_TO(U_CHR)fxp, PTR_TO(U_CHR) typ);
 
 // -----------------------------------------------------------------------
 FUNCTION(NONE, Send a text to POWER - KI chat)
-WRP_TRACE(PTR_TO(U_CHR)t);
+WRP_TRACE(PTR_TO(U_CHR)t,...);
+
+// -----------------------------------------------------------------------
+FUNCTION(NONE, Send a text to POWER - KI chat)
+WRP_TRACE(PTR_TO(A_CHR)t,...);
 
 // =======================================================================
 
@@ -341,7 +345,7 @@ ANY& _wtp_= *(ANY*)&((U8*)_parBuf_)[0];
 
 //------------------------------------------------------
 #define WRP_DCLRES(typ,nam, ...) \
-	typ &nam= *(typ*) WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(typ),(U_CHR*) L#typ,(U_CHR*) __FUNCTIONW__,NULL, _parNum_< 0, NULL);
+	typ &nam= *(typ*) WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY),(U_CHR*) L#typ,(U_CHR*) __FUNCTIONW__,NULL, _parNum_< 0, NULL);
 
 #define WRP_DCLRES_AS(nam,as, ...) \
 	ANY &nam= *(ANY*) WRP_GETRET((U_CHR*)L#nam, _parBuf_, sizeof(ANY), (U_CHR*)L"PTR",(U_CHR*) __FUNCTIONW__, (U_CHR*) as, _parNum_< 0, _asBuf_);
@@ -442,7 +446,6 @@ extern "C" NONE WRP_CALL_PWK_TRIG(ANY parTrg, PTR_TO(U_CHR)parLis, int mode);
 #define WRP_PTR_SET(PTR,WHT,P1)\
 	(PWK_CBS)(6,(U_CHR*) L#WHT, PTR, P1) 
 
-
 // -----------------------------------------------------------------------
 // PWK PTR  SMF 
 // -----------------------------------------------------------------------
@@ -463,11 +466,34 @@ extern "C" NONE WRP_CALL_PWK_TRIG(ANY parTrg, PTR_TO(U_CHR)parLis, int mode);
 // Return PTR_TO(U_CHR)
 
 // -----------------------------------------------------------------------
+// Print an error
+// -----------------------------------------------------------------------
+#define WRP_ERROR(LIB, TXT, NUM)\
+	(PWK_CBS)(7,(U_CHR*) LIB, TXT, NULL) 
+// Return PTR_TO(U_CHR)
+
+
+// -----------------------------------------------------------------------
 //START An External Thread with POWER-KI Access
 // -----------------------------------------------------------------------
 #define WRP_PWK_THREAD(NAME,FUN_PTR,PAR)\
 	(PWK_CBS)(8,(U_CHR*) NAME, FUN_PTR, PAR) 
 // Return HANDLE (ANY) 
+
+// -----------------------------------------------------------------------
+// Get The status of POWER-KI STOP Flag
+// -----------------------------------------------------------------------
+#define WRP_PWK_STOP(NAME,FUN_PTR,PAR)\
+	(PWK_CBS)(9,(U_CHR*) NAME, FUN_PTR, PAR) 
+// Return (int)1=STOP 
+
+// -----------------------------------------------------------------------
+// Get The PTR of POWER-KI STOP Flag
+// -----------------------------------------------------------------------
+#define WRP_PWK_STOP_PTR(NAME,FUN_PTR,PAR)\
+	(PWK_CBS)(10,(U_CHR*) NAME, FUN_PTR, PAR) 
+// Return PTR to Stop Flag (int) 
+
 
 // =======================================================================
 

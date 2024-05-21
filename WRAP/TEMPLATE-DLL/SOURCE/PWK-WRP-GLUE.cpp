@@ -117,7 +117,7 @@ PWK_WRP_PAR_REG(PTR_TO(U_CHR)id, PTR_TO(U_CHR)typ, int szt)
 	PTR_TO(lisParElm) pe=new lisParElm;
 	pe->p.par=StrDup(id);
 	pe->p.typ=StrDup(typ);
-	pe->p.siz=szt;	
+	pe->p.siz=sizeof(PTRU);//szt;	
 	lisPar.Add(pe);
 	}
 
@@ -127,7 +127,7 @@ PWK_WRP_RES_REG(PTR_TO(U_CHR)id, PTR_TO(U_CHR)typ, int szt)
 	PTR_TO(lisParElm) pe=new lisParElm;
 	pe->p.par=StrDup(id);
 	pe->p.typ=StrDup(typ);
-	pe->p.siz=szt;	
+	pe->p.siz=sizeof(PTRU);//szt;	
 	lisRes.Add(pe);
 	}
 
