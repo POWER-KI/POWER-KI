@@ -106,7 +106,7 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 64.12 CodeName: Immagina)</h2> 
 
-12.41 - 21/05/24
+12.42 - 22/05/24
 - Added funtion to DRW lib;
 - New AI Tools;
 - OpenCv: new functions.
