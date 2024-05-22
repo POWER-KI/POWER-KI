@@ -7,7 +7,7 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.12 - Build 12.41 - 64 bit (EXPERIMENTAL)</h3>
+<h3>INSTALL-PACKAGEs Ver.12 - Build 12.42 - 64 bit (EXPERIMENTAL)</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
