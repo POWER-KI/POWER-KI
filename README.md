@@ -7,7 +7,7 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.12 - Build 12.42 - 64 bit (EXPERIMENTAL)</h3>
+<h3>INSTALL-PACKAGEs Ver.12 - Build 12.43 - 64 bit (EXPERIMENTAL)</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
@@ -105,6 +105,10 @@ Read OnLine:</br>
 <a href="https://issuu.com/xplab/docs/tdm-40-pub?fr=sZDQ0OTQyOTE1NTc">TDM40 - La fabbrica intelligente 4.0 (IT) </a> </br>
 
 <h2>CHANGE LOG (ver. 64.12 CodeName: Immagina)</h2> 
+
+12.43 - 31/05/24
+- BUF: new function buf_enc (A, U, UTF, B64);
+- FS_FWRS_F e FS_FRDS_F with buffer support.  
 
 12.42 - 22/05/24
 - Added funtion to DRW lib;
