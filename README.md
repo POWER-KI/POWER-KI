@@ -7,7 +7,7 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.12 - Build 12.43 - 64 bit (EXPERIMENTAL)</h3>
+<h3>INSTALL-PACKAGEs Ver.12 - Build 12.45 - 64 bit (EXPERIMENTAL)</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
@@ -106,6 +106,9 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 64.12 CodeName: Immagina)</h2> 
 
+12.45 - 06/06/24
+- Lib DRW: support for .heic, DRW_INF, DRW_EXP  
+
 12.43 - 31/05/24
 - BUF: new function buf_enc (A, U, UTF, B64);
 - FS_FWRS_F e FS_FRDS_F with buffer support.  
@@ -113,7 +116,7 @@ Read OnLine:</br>
 12.42 - 22/05/24
 - Added funtion to DRW lib;
 - New AI Tools;
-- OpenCv: new functions.
+- OpenCv: new functions and opencv 4.9.
 
 <h2>CHANGE LOG (ver. 32.11 CodeName: Veloce)</h2> 
 
