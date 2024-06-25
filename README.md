@@ -7,7 +7,7 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.12 - Build 12.49 - 64 bit (EXPERIMENTAL)</h3>
+<h3>INSTALL-PACKAGEs Ver.12 - Build 12.52 - 64 bit (EXPERIMENTAL)</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
@@ -106,7 +106,10 @@ Read OnLine:</br>
 
 <h2>CHANGE LOG (ver. 64.12 CodeName: Immagina)</h2> 
 
-12.49 - 22/06/24
+12.52 - 25/06/24
+- minor bug fix.
+
+12.50 - 22/06/24
 - minor bug fix;
 - OCV lib updated;
 - AIT lib updated.
