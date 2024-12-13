@@ -41,14 +41,15 @@ ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 
 ------------------
 <h3>NEWS</h3>
+* NEW Version 22 with a lot of update!
+
+------------------
+<h3>OLD NEWS</h3>
 * RollOut of 64 bit version with <b>AI tools LIB</b>:</br>
 - LOCAL Vector Manager;</br>
 - LOCAL Text2Model Embedder!</br>
 - LOCAL NNN Not Neural Network</br>
 
-
-------------------
-<h3>OLD NEWS</h3>
 * NEW lib ARC for ZIP;<br>
 * NEW <i>"CALCOLATRICE V4"</i> with:<br> 
 - GPT PDF MANAGER (.pdf, .pptx, .odt, .ods, .txt)<br>
@@ -114,6 +115,8 @@ Read OnLine:</br>
 <a href="https://issuu.com/xplab/docs/tdm-40-pub?fr=sZDQ0OTQyOTE1NTc">TDM40 - La fabbrica intelligente 4.0 (IT) </a> </br>
 
 <h2>CHANGE LOG (ver. 64.12 CodeName: Immagina)</h2> 
+22.23 - 13/12/24
+- UPDATED: OCV, PYT, AIT.
 
 12.60 - 04/09/24
 - new DRW lib function and OCV WrapLib update.
