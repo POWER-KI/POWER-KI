@@ -7,24 +7,14 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.22 - Build 22.023 - 64 bit (EXPERIMENTAL-22)</h3>
+<h3>INSTALL-PACKAGEs Ver.22 - Build 22.030 - 64 bit (EXPERIMENTAL-22)</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
 (The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)/a></br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-GUI-PUB01.msi" download>- GUI Client</a>
-
-
-<h3>INSTALL-PACKAGEs Ver.12 - Build 12.60 - 64 bit (EXPERIMENTAL)</h3>
-Ready to install (.msi) package:
-
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
-(The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL/Setup_64_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)/a></br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL/Setup_64_PWK-GUI-PUB01.msi" download>- GUI Client</a>
-
-
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/vc_redist.x64.exe" download>- MS VC redist</a>
 
 <h3>INSTALL-PACKAGEs Ver.11 - Build 35.87 - 32 bit</h3>
 Ready to install (.msi) package:
@@ -115,6 +105,10 @@ Read OnLine:</br>
 <a href="https://issuu.com/xplab/docs/tdm-40-pub?fr=sZDQ0OTQyOTE1NTc">TDM40 - La fabbrica intelligente 4.0 (IT) </a> </br>
 
 <h2>CHANGE LOG (ver. 64.12 CodeName: Immagina)</h2> 
+22.30 - 16/03/25
+- Bug Fix: in WorkBench and in core Thread management.
+- AI Tool: update embedding.
+
 22.23 - 13/12/24
 - UPDATED: OCV, PYT, AIT.
 
