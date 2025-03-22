@@ -105,6 +105,7 @@ Read OnLine:</br>
 <a href="https://issuu.com/xplab/docs/tdm-40-pub?fr=sZDQ0OTQyOTE1NTc">TDM40 - La fabbrica intelligente 4.0 (IT) </a> </br>
 
 <h2>CHANGE LOG (ver. 64.12 CodeName: Immagina)</h2> 
+
 22.32 - 22/03/25
 - Bug Fix: in core Thread Management; in GUI.
 
