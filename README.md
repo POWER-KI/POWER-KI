@@ -1,7 +1,7 @@
 # POWER-KI&reg;
 
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
-&copy;2010-2024 - XPLAB - Research in Automation - Brescia - ITALY</br> 
+&copy;2010-2025 - XPLAB - Research in Automation - Brescia - ITALY</br> 
 [Concept, Design and Coding by Cesare A. Perani]</br>
 * <a href="http://www.POWER-KI.com">POWER-KI official site </a>  
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
@@ -12,8 +12,8 @@ Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
 (The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)/a></br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-GUI-PUB01.msi" download>- GUI Client</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-GUI-PUB01.msi" download>- GUI Client </a></br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/vc_redist.x64.exe" download>- MS VC redist</a>
 
 <h3>INSTALL-PACKAGEs Ver.11 - Build 35.87 - 32 bit</h3>
@@ -21,7 +21,7 @@ Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
 (The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)/a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)</a></br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
 
 Requirements:</br>
