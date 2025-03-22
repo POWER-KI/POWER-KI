@@ -13,7 +13,7 @@ Ready to install (.msi) package:
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
 (The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)/a></br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-GUI-PUB01.msi" download>- GUI Client</a>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-GUI-PUB01.msi" download>- GUI Client</a></br>
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/vc_redist.x64.exe" download>- MS VC redist</a>
 
 <h3>INSTALL-PACKAGEs Ver.11 - Build 35.87 - 32 bit</h3>
