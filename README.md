@@ -1,7 +1,7 @@
 # POWER-KI&reg;
 
 POWER-KI&reg; the programming language for Intelligent Applications (IA)</br> 
-&copy;2010-2025 - XPLAB - Research in Automation - Brescia - ITALY</br> 
+&copy;2010-2025 - <a href="https://www.xplab.net">XPLAB - Research in Automation - Brescia - ITALY</a></br> 
 [Concept, Design and Coding by Cesare A. Perani]</br>
 * <a href="https://www.POWER-KI.com">POWER-KI official site </a>  
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
@@ -30,7 +30,7 @@ Requirements:</br>
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 
 <h3>AI: Data for Transformer Training</h3>
-To help the training of GPT to learn POWER-KI programming in the directory <a href="https://github.com/POWER-KI/POWER-KI/tree/master/AI-Docs" AI-DOCs</a> text documents that explain POWER-KI rules and programming coding sintax.</br> 
+To help the training of GPT to learn POWER-KI programming in the directory <a href="https://github.com/POWER-KI/POWER-KI/tree/master/AI-Docs"> AI-DOCs</a > text documents that explain POWER-KI rules and programming coding sintax.</br> 
 
 ------------------
 <h3>NEWS</h3>
