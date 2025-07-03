@@ -1,6 +1,6 @@
 # POWER-KI AI-DOCS
 This folder contains documents to help GPTs to learn POWER-KI programming basis.
-* <a href="https://github.com/POWER-KI/POWER-KI/raw/master/AI-Docs/01X-PWK-GUIDA-EN-01.txt">General concept </a> 
+* <a href="https://github.com/POWER-KI/POWER-KI/AI-Docs/01X-PWK-GUIDA-EN-01.txt">General concept </a> 
 * <a href="https://github.com/POWER-KI/POWER-KI/raw/master/AI-Docs/02X-PWK-CODIFICA-01.txt">Coding concepts and example </a> 
 * <a href="https://github.com/POWER-KI/POWER-KI/raw/master/AI-Docs/03X-PWK-MAN-LIB-CORE.txt">Library Functions </a> 
 * <a href="https://github.com/POWER-KI/POWER-KI/raw/master/AI-Docs/05X-PWK-GUI-AI.txt">GUI Graphics User Interface coding </a> 
