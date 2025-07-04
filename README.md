@@ -30,7 +30,7 @@ Requirements:</br>
 ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
 
 <h3>AI: Data for Transformer Training</h3>
-To help the training of GPT to learn POWER-KI programming in the directory <a href="https://github.com/POWER-KI/POWER-KI/tree/master/AI-Docs"> AI-DOCs</a > text documents that explain POWER-KI rules and programming coding sintax.</br> 
+To help the training of GPT to learn POWER-KI programming in the directory <a href="https://github.com/POWER-KI/AI-Docs"> AI-DOCs</a > text documents that explain POWER-KI rules and programming coding sintax.</br> 
 
 ------------------
 <h3>NEWS</h3>
