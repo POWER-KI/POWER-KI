@@ -7,27 +7,27 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.22 - Build 22.032 - 64 bit</h3>
+<h3>INSTALL-PACKAGEs Ver.22 - Build 22.107 - 64 bit</h3>
 Ready to install (.msi) package:
 
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
 (The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)</a></br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/Setup_64_PWK-GUI-PUB01.msi" download>- GUI Client </a></br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/EXPERIMENTAL-22/vc_redist.x64.exe" download>- MS VC redist</a>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_64_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_64_PWK-GUI-PUB01.msi" download>- GUI Client </a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/vc_redist.x64.exe" download>- MS VC redist</a>
 
 <h3>INSTALL-PACKAGEs Ver.11 - Build 35.87 - 32 bit</h3>
 Ready to install (.msi) package:
 
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/LEGACY/Setup_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
 (The license file 00_00_00_00_00_00.lic is in the c:\PWK-PRG directory)</br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)</a></br>
-<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/LEGACY/Setup_PWK-EXC_PUB01.msi" download>- EXECUTOR (+ Calcolatrice V4 with GPT apps)</a></br>
+<a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/LEGACY/Setup_PWK-GUI-PUB01.msi" download>- GUI Client</a>
 
 Requirements:</br>
 - Windows 10 or above;
 
-ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages.
+ON <b>Microsoft Store</b> are available Build <b>[33.11]</b> Packages [OBSOLETE].
 
 <h3>AI: Data for Transformer Training</h3>
 To help the training of GPT to learn POWER-KI programming in the directory <a href="https://github.com/POWER-KI/AI-GPT-Docs">AI-DOCs</a > text documents that explain POWER-KI rules and programming coding sintax.</br> 
