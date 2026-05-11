@@ -7,7 +7,7 @@ POWER-KI&reg; the programming language for Intelligent Applications (IA)</br>
 * <a href="https://github.com/POWER-KI/POWER-KI">POWER-KI GitHub Repository </a> 
 * <a href="https://github.com/POWER-KI/GPT">a GitHub Repository dedicated to <b>GPTx+POWER-KI</b> Apps</a> 
 
-<h3>INSTALL-PACKAGEs Ver.22 - Build 22.107 - 64 bit</h3>
+<h3>INSTALL-PACKAGEs Ver.22 - Build 22.118 - 64 bit</h3>
 Ready to install (.msi) package:
 
 <a href="https://github.com/POWER-KI/POWER-KI/raw/master/INSTALL-PACKAGE/Setup_64_POWER-KI_PUB01.msi" download>- DEVELOPER edition (+ Calcolatrice V4 with GPT apps)</a></br>
@@ -34,7 +34,7 @@ To help the training of GPT to learn POWER-KI programming in the directory <a hr
 
 ------------------
 <h3>NEWS</h3>
-* NEW Version 22 with a lot of update!
+* BUILD 22.118: new WRAP LLM Lib for local AI inference with open model (.gguf)
 
 ------------------
 <h3>OLD NEWS</h3>
